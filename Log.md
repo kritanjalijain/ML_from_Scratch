@@ -1,87 +1,26 @@
-# Project Title
+# 100 Days Of ML - LOG
 
-One Paragraph of project description goes here
+## Day 0 : June 30 , 2018
+ 
+**Today's Progress** : I have setup all the things I needed to complete this challenge and also completed chosing the projects I will work on .
 
-## Getting Started
+**Thoughts** : Hope this will be exiciting ,will help me in learning Machine Learning in a more effective way .
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Day 1 : Jul 1 , 2018
 
-### Prerequisites
+**Today's Progress** : I have completed data preparation for kaggle ml problem .
 
-What things you need to install the software and how to install them
+**Thoughts** : It is really challenging and many error occured , but I have debuged them . It was really fun .
 
-```
-Give examples
-```
 
-### Installing
+**Link of Work:**   [Commit](https://github.com/LordSomen/100DaysOfML/commit/a09148256d1561f5f9e5544ff3f64aacf0d24f43)
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+## Day 2 : Jul 2 , 2018
 
-```
-Give the example
-```
+**Today's Progress** : I have completed initial training and testing of the model and submitted to the Kaggle . 
 
-And repeat
+**Thoughts** : The score have to be improved I will try my best on it and it is really fun .
 
-```
-until finished
-```
+**Link of Work:**  [Commit](https://github.com/LordSomen/100DaysOfML/commit/5cf906d86324c52dbd90896a57ee951befdcf0e3)
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc

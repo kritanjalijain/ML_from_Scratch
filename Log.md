@@ -1,10 +1,10 @@
 # 100 Days Of ML - LOG
 
-## Day 0 : June 30 , 2018
+## Day 0 : August 30 , 2020
  
-**Today's Progress** : I have setup all the things I needed to complete this challenge and also completed chosing the projects I will work on .
+**Today's Progress** : I have setup all the things I needed to complete this challenge. 
 
-**Thoughts** : Hope this will be exiciting ,will help me in learning Machine Learning in a more effective way .
+**Thoughts** : Hope this will be exiciting, will help me in learning Machine Learning in a more effective way.
 
 ## Day 1 : Jul 1 , 2018
 

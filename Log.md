@@ -6,15 +6,12 @@
 
 **Thoughts** : Today was hectic. One thing led to another and it took me several hours. Hope this will be exciting, will help me in learning Machine Learning in a more effective way.
 
-## Day 1 : Jul 1 , 2018
+## Day 1 : August 31 , 2020
 
-**Today's Progress** : I have completed data preparation for kaggle ml problem .
+**Today's Progress** : I started Andrew Ng's course about learning the basics of ML and completed 1/3rd of Week 1.
 
-**Thoughts** : It is really challenging and many error occured , but I have debuged them . It was really fun .
-
-
-**Link of Work:**   [Commit](https://github.com/LordSomen/100DaysOfML/commit/a09148256d1561f5f9e5544ff3f64aacf0d24f43)
-
+**Thoughts** : It was really fun. Octave is a good platform to learn ML as a beginner. Today i learnt about surpervised learning and unsupervised learning, linear regression, etc.
+I put in extra efforts to google whatever I didn't understand by pausing the video at the moment itself and not keeping it for later.
 
 ## Day 2 : Jul 2 , 2018
 

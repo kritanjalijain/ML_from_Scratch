@@ -15,7 +15,7 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 
 ## Day 2 : September 01, 2020
 
-**Today's Progress** : I have completed initial training and testing of the model and submitted to the Kaggle . 
+**Today's Progress** : I have gotten to know about square errored function, cost function, contour plots, computation of gradient descent. 
 
 **Thoughts** : The score have to be improved I will try my best on it and it is really fun .
 

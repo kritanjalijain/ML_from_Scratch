@@ -15,7 +15,7 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 
 ## Day 2 : September 01, 2020
 
-**Today's Progress** : I have gotten to know about square errored function, cost function, contour plots, computation of gradient descent. 
+**Today's Progress** : I have gotten to know about square errored function, cost function, contour plots, computation of gradient descent. I also implemented basic matrix operations like scalar and vector multiplication, division, addition and subtraction using Octave.
 
 **Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
 

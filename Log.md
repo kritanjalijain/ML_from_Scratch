@@ -16,8 +16,8 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 ## Day 2 : September 01, 2020
 
 **Today's Progress** :  
-1. I have gotten to know about square errored function, cost function, contour plots, computation of gradient descent.
-1. Implementing multiple linear regression hypotheses simultaneously using matrices in Octave.
+1. Applications of square errored function, cost function, contour plots, computation of gradient descent.
+1. Predicted multiple linear regression hypotheses simultaneously using matrices in Octave.
    1. Item 3a
    1. Item 3b
    

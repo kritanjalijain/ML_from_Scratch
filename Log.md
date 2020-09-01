@@ -13,7 +13,7 @@
 **Thoughts** : It was really fun. Octave is a good platform to learn ML as a beginner. Today I learnt about surpervised learning and unsupervised learning, linear regression, etc.
 I put in extra efforts to google whatever I didn't understand by pausing the video at the moment itself and not keeping it for later.
 
-## Day 2 : Jul 2 , 2018
+## Day 2 : September 01, 2020
 
 **Today's Progress** : I have completed initial training and testing of the model and submitted to the Kaggle . 
 

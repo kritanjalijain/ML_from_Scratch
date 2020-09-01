@@ -17,8 +17,7 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 
 **Today's Progress** :  
 1. I have gotten to know about square errored function, cost function, contour plots, computation of gradient descent.
-1. I also implemented basic matrix operations like scalar and vector multiplication, division, addition and subtraction or finding the inverse and transpose of a matrix using Octave.
-1. Item 3
+1. Implementing multiple linear regression hypotheses simultaneously using matrices in Octave.
    1. Item 3a
    1. Item 3b
    

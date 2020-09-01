@@ -17,7 +17,7 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 
 **Today's Progress** : I have gotten to know about square errored function, cost function, contour plots, computation of gradient descent. 
 
-**Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then applying the gradient descent algorithm to the regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
+**Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
 
 **Link of Work:**  [Commit](https://github.com/LordSomen/100DaysOfML/commit/5cf906d86324c52dbd90896a57ee951befdcf0e3)
 

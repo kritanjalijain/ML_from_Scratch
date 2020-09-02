@@ -25,3 +25,14 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 
 **Link of Work:**  [Commit](https://github.com/LordSomen/100DaysOfML/commit/5cf906d86324c52dbd90896a57ee951befdcf0e3)
 
+## Day 3 : September 02, 2020
+
+**Today's Progress** :  
+1. Completed onramp MATALB course about the basics of MATLAB and implemented it in three projects.
+1. Predicted multiple linear regression hypotheses simultaneously using matrices in Octave.
+   1. Item 3a
+   1. Item 3b
+   
+**Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
+
+**Link of Work:**  [Commit](https://github.com/LordSomen/100DaysOfML/commit/5cf906d86324c52dbd90896a57ee951befdcf0e3)

@@ -41,8 +41,8 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 
 **Today's Progress** :  
 1. Implemented multivariant linear regression and predicted form of hypothesis when it has multiple features.
-1. Learnt how to fit the parameters of that hypothesis. In particular, about how to use gradient descent for linear regression with multiple features.
-1. Applications of feature scaling and mean normalization to gradient descent, debugging gradient descent, automatic convergence test and choosing a suitably small learning rate.
+   1. Learnt how to fit the parameters of that hypothesis. In particular, about how to use gradient descent for linear regression with multiple features.
+   1. Applications of feature scaling and mean normalization to gradient descent, debugging gradient descent, automatic convergence test and choosing a suitably small learning rate.
 1. Predicted cost function using polynomial regression.
 1. Apart from octave and MATLAB, I explored ML using python libraries like Pandas, Numpy and OpenCV.
      

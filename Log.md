@@ -30,7 +30,7 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 **Today's Progress** :  
 1. Completed onramp MATALB course about the basics of MATLAB and implemented it in three projects.
 1. Predicted Stellar motion in MATLAB.
-   1. Item 3a
+   1. Vectorization
    1. Item 3b
    
 **Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
@@ -47,6 +47,18 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 1. Predicted cost function using polynomial regression.
 1. Apart from octave and MATLAB, I explored ML using python libraries like Pandas, Numpy and OpenCV.
      
+**Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
+
+**Link of Work:**  [Commit](https://github.com/LordSomen/100DaysOfML/commit/5cf906d86324c52dbd90896a57ee951befdcf0e3)
+
+## Day 6 : September 04, 2020
+
+**Today's Progress** :  
+1. Completed onramp MATALB course about the basics of MATLAB and implemented it in three projects.
+1. Predicted Stellar motion in MATLAB.
+   1. Item 3a
+   1. Item 3b
+   
 **Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
 
 **Link of Work:**  [Commit](https://github.com/LordSomen/100DaysOfML/commit/5cf906d86324c52dbd90896a57ee951befdcf0e3)

@@ -40,7 +40,7 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 ## Day 5 : September 03, 2020
 
 **Today's Progress** :  
-1. Implemented linear regression using multiple variables.
+1. Implemented linear regression using multiple variables, predicted form of hypothesis when it has multiple features.
 1. Apart from octave and MATLAB, I explored ML using python libraries like Pandas, Numpy and OpenCV.
    1. Item 3a
    1. Item 3b

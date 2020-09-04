@@ -17,8 +17,4 @@ This project finds the determine how fast the star is moving away from earth by 
 #### How to run?
 You will find `README.md` file in each project directory. First fork the repository to run projects locally with `octave` or `MATLAB`. Then follow the instructions of `README.md` file to run any project.
 
-#### IF you want to contribute to this repository:
-Awesome! You should make a pull request fixing either any of listed issues of repository or `TODO` tag of repository. You can find all `TODO` tag in repository with `git grep TODO`. Please contact me directly for any further detail.
-
-<!-- TODO: Add script to automatically generate common README content in all sub-directories -->
 This project is part of MathWorks's [MATLAB Onramp Course](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted)

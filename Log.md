@@ -30,6 +30,7 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 **Today's Progress** :  
 1. Completed onramp MATALB course about the basics of MATLAB, importing and visualizing data and implemented it in projects.
 1. The projects made were-
+   1. Electricity usage and prices- Project to plot electricity usage and prices for various economic sectors.
    1. Audio frequency- Project to plot a signal that contains beat phenomenon and then analyze the signal's frequency content.
    1. Stellar motion-
    

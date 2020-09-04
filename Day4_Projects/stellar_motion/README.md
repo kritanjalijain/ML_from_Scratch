@@ -2,7 +2,7 @@
 
 #### About project
 
-This project finds the determine how fast the star is moving away from earth by using the wavelength characteristic spectrum of star.
+This project finds and determines how fast the star is moving away from earth by using the wavelength characteristic spectrum of star.
 
 One can learn about a star -- thousands of mile years away from the earth -- by examining the light which comes from the star. The beam of light can be split into its individual wavelength using _diffraction grating_. Measuring the intensity of light observed in each wavelength gives the _star characteristic spectrum_. As H2(Hydrogen) obsorbs light precisely at _656.3 nm_, there is deep spike in spectrum in almost all star's characteristic spectrum. A star's spectrum is _blueshifted_ shifted to shorter wavelengths if it's moving towards earth and _redshifted_, shifted to longer wavelengths if it's moving away from earth. 
 

@@ -30,8 +30,8 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 **Today's Progress** :  
 1. Completed onramp MATALB course about the basics of MATLAB, importing and visualizing data and implemented it in projects.
 1. The projects made were-
-   1. Vectorization
-   1. Predicted Stellar motion in MATLAB.
+   1. Audio frequency- Project to plot a signal that contains beat phenomenon and then analyze the signal's frequency content.
+   1. Stellar motion-
    
 **Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
 

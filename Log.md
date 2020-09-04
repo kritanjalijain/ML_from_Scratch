@@ -36,7 +36,7 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
    
 **Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
 
-**Link of Work:**  [Commit](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/commit/)
+**Link of Work:**  [Commit](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/commit/5b59e6b0c295643b9e6f6d09212868d8bbfc5c11)
 
 ## Day 5 : September 03, 2020
 

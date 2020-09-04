@@ -18,12 +18,10 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 **Today's Progress** :  
 1. Applications of square errored function, cost function, contour plots, computation of gradient descent.
 1. Predicted multiple linear regression hypotheses simultaneously using matrices in Octave.
-   1. Item 3a
-   1. Item 3b
-   
+     
 **Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
 
-**Link of Work:**  [Commit](https://github.com/LordSomen/100DaysOfML/commit/5cf906d86324c52dbd90896a57ee951befdcf0e3)
+**Link of Work:**  [Commit](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/commit/)
 
 ## Day 3 : September 02, 2020
 
@@ -55,8 +53,8 @@ I put in extra efforts to google whatever I didn't understand by pausing the vid
 ## Day 5 : September 04, 2020
 
 **Today's Progress** :  
-1. Completed onramp MATALB course about the basics of MATLAB and implemented it in three projects.
-1. Predicted Stellar motion in MATLAB.
+1. Predict and plot the prices of houses using multivariant linear regression, from both normal equation and gradient descent algorithm.
+1. Predict and plot the profits of a resturant using linear regression from batch gradient descent algorithm.
    1. Item 3a
    1. Item 3b
    

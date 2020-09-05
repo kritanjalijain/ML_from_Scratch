@@ -7,4 +7,8 @@ User-Built Function files
 
 
 #### How to run?
-First fork the repository to run projects locally with `octave` or `MATLAB`. Then follow the instructions of `README.md` file to run this project.
+You can run project either in `octave` or `MATLAB`. 
+1. Clone repository using `git clone `
+2. `cd` to project directory and either run following command in octave or MATLAB
+2. `run('restaurant_linear_regression_1.m')` to run this project.
+

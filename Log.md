@@ -33,7 +33,7 @@
    
 **Thoughts** : Getting to use MATLAB a multi-paradigm numerical computing environment and proprietary programming language was fun. Using MATLAB to predict stuff in real life examples was really fascinating.
 
-**Link of Work:**  [Commit](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/commit/5b59e6b0c295643b9e6f6d09212868d8bbfc5c11)
+**Link of Work:**  [Day4_Projects](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/tree/master/Day4_Projects)
 
 ## Day 4 : September 03, 2020
 
@@ -47,29 +47,22 @@
      
 **Thoughts** : Today was a bit overwhelhming but exciting. I'm really eager to dive deeper into machine learning.
 
-**Link of Work:**  [Commit](https://github.com/LordSomen/100DaysOfML/commit/5cf906d86324c52dbd90896a57ee951befdcf0e3)
-
 ## Day 5 : September 04, 2020
 
 **Today's Progress** :  
-1. Predict and plot the prices of houses using multivariant linear regression, from both normal equation and gradient descent algorithm.
-1. Predict and plot the profits of a resturant using linear regression from batch gradient descent algorithm.
-   1. Item 3a
-   1. Item 3b
+1. Project- Predict the profits of a restaurant using linear regression from batch gradient descent algorithm and plot it's contour plot and surface plot.
    
 **Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
 
-**Link of Work:**  [Commit](https://github.com/LordSomen/100DaysOfML/commit/5cf906d86324c52dbd90896a57ee951befdcf0e3)
+**Link of Work:**  [Day5_Projects](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/tree/master/Day5_Projects)
 
 ## Day 6 : September 05, 2020
 
 **Today's Progress** :  
-1. Predict and plot the prices of houses using multivariant linear regression, from both normal equation and gradient descent algorithm.
-1. Predict and plot the profits of a resturant using linear regression from batch gradient descent algorithm.
-   1. Item 3a
-   1. Item 3b
+1. Project- Predict and plot the prices of houses using multivariant linear regression, from both normal equation and gradient descent algorithm.
+1. Explored Numpy.
    
 **Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
 
-**Link of Work:**  [Commit](https://github.com/LordSomen/100DaysOfML/commit/5cf906d86324c52dbd90896a57ee951befdcf0e3)
+**Link of Work:**  [Day6_Projects](https://github.com/kritanjalijain/)
 

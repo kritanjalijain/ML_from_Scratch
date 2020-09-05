@@ -1,6 +1,6 @@
 # MATLAB Onramp projects
 
-This repository contains three project part of [MATLAB Onramp course by MathWorks](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted) to get started with MATLAB.
+This folder contains three project part of [MATLAB Onramp course by MathWorks](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted) to get started with MATLAB.
 
 1. Electricity Usage and Prices | [MathWorks Course Link](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted#chapter=10&lesson=2&section=1)
 

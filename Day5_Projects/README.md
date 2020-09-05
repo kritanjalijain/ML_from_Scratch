@@ -1,6 +1,6 @@
 # Day 5 - Linear Regression Project
 
-### Problem Statement
+### Project Desciption
 In this project I implemented linear regression with one variable to predict profits for a restaurant franchise which is considering different cities for opening a new
 outlet. The chain already has outlets in various cities and data for profits and populations from the cities is provided. The goal to find which city is appropriate to expand to next.
 
@@ -27,7 +27,11 @@ To help understand the cost function J(&theta;) better, I plotted the cost over 
 
 ###### Figure 3 - Surface Plot
 
-User-Built Function files
+### Project Structure 
+
+`restaurant_linear_regression_1.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
+
+User-Defined Function files
 1. `plotData.m` - Function to display the dataset
 1. `computeCost.m` - Function to compute the cost of linear regression
 1. `gradientDescent.m` - Function to run gradient descent
@@ -37,4 +41,8 @@ You can run project either in `octave` or `MATLAB`.
 1. Clone repository using `git clone `
 2. `cd` to project directory and either run following command in `octave` or `MATLAB`
 2. `run('restaurant_linear_regression_1.m')` to run this project
+
+#### Where to find help?
+1. At the Octave/MATLAB command line, typing `help` followed by a function name displays documentation for a built-in function. For example, `help plot` will bring up help information for plotting. Further documentation for Octave functions can be found at the Octave documentation pages. 
+2. MATLAB documentation can be found at the MATLAB documentation pages.
 

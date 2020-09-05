@@ -20,5 +20,3 @@ no_of_signales = length(y_signals);
 frequencies = (0:fs/no_of_signales:fs*(no_of_signales-1)/no_of_signales);
 
 plot(frequencies, abs(yfft));
-
-% TODO: Add more details and explanation of theory used

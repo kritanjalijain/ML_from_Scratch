@@ -35,6 +35,6 @@ User-Built Function files
 #### How to run?
 You can run project either in `octave` or `MATLAB`. 
 1. Clone repository using `git clone `
-2. `cd` to project directory and either run following command in octave or MATLAB
-2. `run('restaurant_linear_regression_1.m')` to run this project.
+2. `cd` to project directory and either run following command in `octave` or `MATLAB`
+2. `run('restaurant_linear_regression_1.m')` to run this project
 

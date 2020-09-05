@@ -1,5 +1,3 @@
-% Course: https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted
-
 % Clear variables
 clc;
 clear;

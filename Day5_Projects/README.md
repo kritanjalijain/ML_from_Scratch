@@ -10,11 +10,13 @@ The file `ex1data1.txt` contains the dataset for the above linear regression pro
 Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, I have used a scatter plot to visualize the data, since it has only two properties to plot (profit and population). In `restaurant_linear_regression_1.m`, the dataset is loaded from the data file and then the script calls the `plotData` function to create a scatter plot of the data.
 
 ### Gradient Descent
-Next, I fit the linear regression parameters theta to the dataset using batch gradient descent algorithm (minimize cost function J(theta)). Final values for theta were also be used to make predictions on profits in areas of 35,000 and 70,000 people. The script calls the file `computeCost.m`, which is a function that computes J(theta) and `gradientDsecent.m` to implement the algorithm.
+Next, I fit the linear regression parameters &theta; to the dataset using batch gradient descent algorithm (minimize cost function J(&theta;)). Final values for &theta; were also be used to make predictions on profits in areas of 35,000 and 70,000 people. The script calls the file `computeCost.m`, which is a function that computes J(&theta;) and `gradientDsecent.m` to implement the algorithm.
 
 ![](results/Scatter_Plot_1.png)
 
 ###### Figure 1- Training data with linear regression fit
+
+### Visualising J(&theta;)
 
 User-Built Function files
 1. `plotData.m` - Function to display the dataset

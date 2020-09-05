@@ -43,6 +43,7 @@ You can run project either in `octave` or `MATLAB`.
 2. `run('restaurant_linear_regression_1.m')` to run this project
 
 #### Where to find help?
-1. At the Octave/MATLAB command line, typing `help` followed by a function name displays documentation for a built-in function. For example, `help plot` will bring up help information for plotting. Further documentation for Octave functions can be found at the Octave documentation pages. 
-2. MATLAB documentation can be found at the MATLAB documentation pages.
+* If you do not have Octave or MATLAB installed, please refer to the installation instructions in the
+* At the Octave/MATLAB command line, typing `help` followed by a function name displays documentation for a built-in function. For example, `help plot` will bring up help information for plotting. Further documentation for Octave functions can be found at the [Octave documentation pages](https://octave.org/doc/v5.2.0/). 
+* MATLAB documentation can be found at the [MATLAB documentation pages](https://in.mathworks.com/help/matlab/?refresh=true).
 

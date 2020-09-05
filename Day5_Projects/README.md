@@ -7,4 +7,4 @@ User-Built Function files
 
 
 #### How to run?
-You will find `README.md` file in each project directory. First fork the repository to run projects locally with `octave` or `MATLAB`. Then follow the instructions of `README.md` file to run any project.
+First fork the repository to run projects locally with `octave` or `MATLAB`. Then follow the instructions of `README.md` file to run this project.

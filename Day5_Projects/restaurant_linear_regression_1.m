@@ -1,3 +1,5 @@
+%% ======================= Part 1: Problem Statement =======================
+% Predict profits of Linear regression using batch graident descent algorithm
 %% Initialization
 clear ; close all; clc
 

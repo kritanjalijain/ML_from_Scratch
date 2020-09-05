@@ -16,7 +16,8 @@ Next, I fit the linear regression parameters &theta; to the dataset using batch 
 
 ###### Figure 1- Training data with linear regression fit
 
-### Visualising J(&theta;)
+### Visualizing J(&theta;)
+To help understand the cost function J(&theta;) better, I plotted the cost over a 2-dimensional grid of &theta;<sub>o</sub> and &theta;<sub>1</sub> values. To do that, I calculated J(&theta;) over a grid of values to get a 2-D array of J(&theta;) values. The script `restaurant_linear_regression_1.m` then used these values to produce surface and contour plots of J(&theta;).
 
 User-Built Function files
 1. `plotData.m` - Function to display the dataset

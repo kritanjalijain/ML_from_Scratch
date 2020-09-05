@@ -12,6 +12,8 @@ Before starting on any task, it is often useful to understand the data by visual
 Next, I fit the linear regression parameters theta to the dataset using batch gradient descent algorithm (minimize cost function J(theta)). Final values for theta were also be used to make predictions on profits in areas of 35,000 and 70,000 people. The script calls the file `computeCost.m`, which is a function that computes J(theta) and `gradientDsecent.m` to implement the algorithm.
 
 Figure 1- Training data with linear regression fit
+
+
 ![](results/Scatter_Plot_1.png)
 
 User-Built Function files

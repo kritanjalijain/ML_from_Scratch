@@ -66,3 +66,13 @@
 
 **Link of Work:**  [Day6_Projects](https://github.com/kritanjalijain/)
 
+## Day 6 : September 07, 2020
+
+**Today's Progress** :  
+1. Project- Predict and plot the prices of houses using multivariant linear regression, from both normal equation and gradient descent algorithm.
+1. Explored Numpy.
+   
+**Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
+
+**Link of Work:**  [Day6_Projects](https://github.com/kritanjalijain/)
+

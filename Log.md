@@ -62,17 +62,16 @@
 1. Project- Predict and plot the prices of houses using multivariant linear regression, from both normal equation and gradient descent algorithm.
 1. Explored Numpy.
    
-**Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
+**Thoughts** : Visualizing data really helps understand the model better.
 
 **Link of Work:**  [Day6_Projects](https://github.com/kritanjalijain/)
 
-## Day 6 : September 07, 2020
+## Day 7 : September 07, 2020
 
 **Today's Progress** :  
-1. classification problems
+1. Classification problems
    * Hypothesis representation, visualisation of logistic regression; decision boundary.
    
-**Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
+**Thoughts** : Finally got to know applications of the logistic function or the sigmoid function which I studied in 11th grade. I can finally understand the real life applications of matrices, algebra and calculus studied previously. Well, this is fun :)
 
-**Link of Work:**  [Day6_Projects](https://github.com/kritanjalijain/)
 

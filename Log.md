@@ -74,4 +74,13 @@
    
 **Thoughts** : Finally got to know applications of the logistic function or the sigmoid function which I studied in 11th grade. I can finally understand the real life applications of matrices, algebra and calculus studied previously. Well, this is fun :)
 
+## Day 8 : September 08, 2020
+
+**Today's Progress** :  
+1. Classification problems
+   * Hypothesis representation, visualisation of logistic regression; decision boundary.
+   
+**Thoughts** : Finally got to know applications of the logistic function or the sigmoid function which I studied in 11th grade. I can finally understand the real life applications of matrices, algebra and calculus studied previously. Well, this is fun :)
+
+
 

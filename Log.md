@@ -33,7 +33,7 @@
    
 **Thoughts** : Getting to use MATLAB a multi-paradigm numerical computing environment and proprietary programming language was fun. Using MATLAB to predict stuff in real life examples was really fascinating.
 
-**Link of Work:**  [Day4_Projects](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/tree/master/Day4_Projects)
+**Link of Work:**  [Day3_Projects](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/tree/master/Day4_Projects)
 
 ## Day 4 : September 03, 2020
 

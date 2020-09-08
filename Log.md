@@ -20,7 +20,7 @@
      
 **Thoughts** : The entire process of analysing both gradient descent and linear regression individually and then implementing the batch gradient descent algorithm to the linear regression model was really fascinating and fun. Things seem to be really obvious once you understand them truly.
 
-**Link of Work:**  [Commit](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/commit/2f402dd0bd40b800d566703cef8e17a2f5767748)
+**Link of Work:**  [Day2](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/tree/master/Day2)
 
 ## Day 3 : September 02, 2020
 
@@ -33,7 +33,7 @@
    
 **Thoughts** : Getting to use MATLAB a multi-paradigm numerical computing environment and proprietary programming language was fun. Using MATLAB to predict stuff in real life examples was really fascinating.
 
-**Link of Work:**  [Day3_Projects](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/tree/master/Day4_Projects)
+**Link of Work:**  [Day3_Projects](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/tree/master/Day3_Projects)
 
 ## Day 4 : September 03, 2020
 

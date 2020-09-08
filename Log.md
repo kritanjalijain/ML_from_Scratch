@@ -80,7 +80,8 @@
  Classification problems -
    * Derivation of cost function for logisitic regression
    * Gradient descent for minimizing the cost function J of theta for logistic regression.
-  Basic of sophisticated optimization algorithms like
+  
+ Basic of sophisticated optimization algorithms like
   * conjugate gradient 
   * BFGS 
   * L-BFGS 

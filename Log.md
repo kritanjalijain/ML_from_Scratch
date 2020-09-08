@@ -81,12 +81,11 @@
    * Derivation of cost function for logisitic regression
    * Gradient descent for minimizing the cost function J of theta for logistic regression.
   
- Basic of sophisticated optimization algorithms like
-  * conjugate gradient 
+ Basics of sophisticated optimization algorithms like-
+  * Conjugate gradient 
   * BFGS 
   * L-BFGS 
 
-   
 **Thoughts** : Finally got to know applications of the logistic function or the sigmoid function which I studied in 11th grade. I can finally understand the real life applications of matrices, algebra and calculus studied previously. Well, this is fun :)
 
 

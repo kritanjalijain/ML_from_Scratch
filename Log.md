@@ -91,7 +91,7 @@
 ## Day 9 : September 09, 2020
 
 **Today's Progress** :  
- Classification problems -
+ Multi-Classification problems -
    * Derivation of cost function for logisitic regression
    * Gradient descent for minimizing the cost function J of theta for logistic regression.
   

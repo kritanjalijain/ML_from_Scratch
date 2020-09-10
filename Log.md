@@ -98,5 +98,12 @@
 
 **Thoughts** : Finally got to know applications of the logistic function or the sigmoid function which I studied in 11th grade. I can finally understand the real life applications of matrices, algebra and calculus studied previously. Well, this is fun :)
 
+## Day 10 : September 10, 2020
+
+**Today's Progress** :  
+   * Regularization to help prevent models from overfitting the training data.(Since machine learning models need to generalize well to new examples that the model has not seen        in practice.)
+   
+**Thoughts** : Finally got to know applications of the logistic function or the sigmoid function which I studied in 11th grade. I can finally understand the real life applications of matrices, algebra and calculus studied previously. Well, this is fun :)
+
 
 

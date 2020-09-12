@@ -7,9 +7,9 @@ In this project, I built a logistic regression model to predict each applicant's
 ### Plotting the Data
 Before starting to implement any learning algorithm, it is often useful to understand the data by visualizing it. For this dataset, I have used a scatter plot to visualize the data. In `student_admission_prediction.m`, the dataset is loaded from the data file `studentdata.txt` and then the script calls the `plotData` function to create a scatter plot of the data.
 
-![](results/Scatter_Plot_1.png)
-
 ##### Figure 1- Scatter Plot of training data
+
+![](results/Scatter_Plot_1.png)
 
 
 ### Gradient Descent - Method 1
@@ -20,9 +20,9 @@ This time, instead of taking gradient descent steps, I used a MATLAB built-in fu
 
 The final value of (&theta;) was then used to plot the decision boundary by calling the file `plotDecisionBoundary.m ` on the training data, resulting in the figure below.
 
-![](results/Scatter_Plot_2.png)
 ##### Figure 2- Training data with decision boundary
+![](results/Scatter_Plot_2.png)
 
 
 ### Evaluating logistic regression
-To evaluate the quality of the parameters we have found is to see how well the learned model predicts on our training set. The script calls the file `predict.m`. The `predict` function will produce '1' or '0' predictions given a dataset and a learned parameter vector (&theta;). Then proceed to report the training accuracy of the classifier by computing the percentage of examples it got correct. 
+To evaluate the quality of the parameters have found is to see how well the learned model predicts on our training set. The script calls the file `predict.m`. The `predict` function will produce '1' or '0' predictions given a dataset and a learned parameter vector (&theta;). Then proceed to report the training accuracy of the classifier by computing the percentage of examples it got correct. 

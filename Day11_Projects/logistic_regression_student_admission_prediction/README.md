@@ -25,4 +25,4 @@ The final value of (&theta;) was then used to plot the decision boundary by call
 
 
 ### Evaluating logistic regression
-To evaluate the quality of the parameters have found is to see how well the learned model predicts on our training set. The script calls the file `predict.m`. The `predict` function will produce '1' or '0' predictions given a dataset and a learned parameter vector (&theta;). Then proceed to report the training accuracy of the classifier by computing the percentage of examples it got correct. 
+To evaluate the quality of the parameters have found is to see how well the learned model predicts on our training set. The script calls the file `predict.m`. The `predict` function will produce '1' or '0' predictions given a dataset and a learned parameter vector &theta;. Then proceed to report the training accuracy of the classifier by computing the percentage of examples it got correct. 

@@ -13,3 +13,9 @@ Before starting to implement any learning algorithm, it is often useful to under
 ![](results/Scatter_Plot_3.png)
 
 Figure 1 shows that the dataset cannot be separated into positive and negative examples by a straight-linethrough the plot. Therefore, a straightforward application of logistic regression will not perform well on this dataset since logistic regression will only be able to find a linear decision boundary.
+
+### Feature Mapping
+One way to fit the data better is to create more features from each data point. In the provided `functionmapFeature.m`, I mapped the features into all polynomial terms of x1 and x2 up to the sixth power.
+A logistic regression classifier trained on this higher-dimension feature vector will have a more complex decision boundary and will appear nonlinear when drawn in our 2-dimensional plot.
+ 
+### Cost function and gradient

@@ -26,3 +26,26 @@ The final value of (&theta;) was then used to plot the decision boundary by call
 
 ### Evaluating logistic regression
 To evaluate the quality of the parameters have found is to see how well the learned model predicts on our training set. The script calls the file `predict.m`. The `predict` function will produce '1' or '0' predictions given a dataset and a learned parameter vector &theta;. Then proceed to report the training accuracy of the classifier by computing the percentage of examples it got correct. 
+
+### Project Structure 
+
+`student_admission_predication.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
+
+User-Defined Function files
+1. `plotData.m` - Function to plot 2D classification data
+1. `costFunction.m` - Function to compute the cost of logistic regression
+1. `plotDecisionBoundary.m` - Function to plot classifier's decision boundary 
+1. `predict.m` - Logistic regression prediction function
+
+### How to run?
+You can run project either in `octave` or `MATLAB`. 
+1. Clone repository using `git clone `
+2. `cd` to project directory and either run following command in `octave` or `MATLAB`
+2. `run('student_admission_predication.m')` to run this project
+
+### Where to find help?
+* If you do not have Octave installed, please refer to the installation instructions on the [Octave Download](https://www.gnu.org/software/octave/download.html) official site.
+* At the Octave/MATLAB command line, typing `help` followed by a function name displays documentation for a built-in function. For example, `help plot` will bring up help information for plotting. Further documentation for Octave functions can be found at the [Octave documentation pages](https://octave.org/doc/v5.2.0/). 
+* MATLAB is a proprietary software but see if your school/university has a [MATLAB campus license](https://in.mathworks.com/academia/tah-support-program/eligibility.html). 
+* MATLAB documentation can be found at the [MATLAB documentation pages](https://in.mathworks.com/help/matlab/?refresh=true).
+

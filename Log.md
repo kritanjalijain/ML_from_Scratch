@@ -110,4 +110,11 @@
 **Today's Progress** :  
    * Regularization to help ameliorate models from overfitting the training data.(Since machine learning models need to generalize well to new examples that the model has not seen in practice.)
    
-**Thoughts** : Choosing a model with an appropriate algorithm is essential and an algorithm fiiting the data too perfectly (over-fitting) is not appropriate at times since it has high variance just like underfitting has high bias. 
+**Thoughts** :  
+
+## Day 12 : September 12, 2020
+
+**Today's Progress** :  
+   * Regularization to help ameliorate models from overfitting the training data.(Since machine learning models need to generalize well to new examples that the model has not seen in practice.)
+   
+**Thoughts** : 

@@ -3,7 +3,7 @@ dir
 
 % Load Data
 % The first two columns contain the exam scores and the third column contains the label.
-data = load('studentdata1.txt');
+data = load('studentdata.txt');
 X = data(:, [1, 2]); 
 y = data(:, 3);
 
@@ -66,7 +66,7 @@ fprintf('Train Accuracy: %f\n', mean(double(p == y)) * 100);
 
 %  The first two columns contains the X values and the third column
 %  contains the label (y).
-data = load('ex2data2.txt');
+data = load('microchipdata.txt');
 X = data(:, [1, 2]); y = data(:, 3);
 
 plotData(X, y);

@@ -4,6 +4,8 @@
 
 In this project, I built a logistic regression model to predict each applicant's chance of admission in a university based on their results on two exams. have historical data from previous applicants that you can use as a training set for logistic regression. For each training example, we have the applicant's scores on two exams and the admissions decision. Your task is to build a classification model that estimates an applicant's probability of admission based the scores from those two exams. 
 
+The file `studentdata.txt` contains historical data from previous applicants. The first column is the exam 1 score, the second column is the score of exam 2 and the third column is the the admissions decision. Zero indicates not admitted while one indicates admitted students.
+
 ### Plotting the Data
 Before starting to implement any learning algorithm, it is often useful to understand the data by visualizing it. For this dataset, I have used a scatter plot to visualize the data. In `student_admission_prediction.m`, the dataset is loaded from the data file `studentdata.txt` and then the script calls the `plotData` function to create a scatter plot of the data.
 

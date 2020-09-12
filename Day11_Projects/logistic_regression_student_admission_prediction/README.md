@@ -9,6 +9,8 @@ Before starting to implement any learning algorithm, it is often useful to under
 
 ![](results/Scatter_Plot_1.png)
 
+##### Figure 1- Scatter Plot of training data
+
 
 ### Gradient Descent - Method 1
 Next, I implemented the cost function and gradient for logistic regression. I found the optimal parameters of a linear regression model by implementing gradent descent. I wrote a cost function and calculated its gradient, then took a gradient descent step accordingly. The script calls the file `costFunction.m` to implement the algorithm.
@@ -19,3 +21,8 @@ This time, instead of taking gradient descent steps, I used a MATLAB built-in fu
 The final value of (&theta;) was then used to plot the decision boundary by calling the file `plotDecisionBoundary.m ` on the training data, resulting in the figure below.
 
 ![](results/Scatter_Plot_2.png)
+##### Figure 2- Training data with decision boundary
+
+
+### Evaluating logistic regression
+To evaluate the quality of the parameters we have found is to see how well the learned model predicts on our training set. The script calls the file `predict.m`. The `predict` function will produce '1' or '0' predictions given a dataset and a learned parameter vector (&theta;). Then proceed to report the training accuracy of the classifier by computing the percentage of examples it got correct. 

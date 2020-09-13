@@ -123,7 +123,7 @@
 
 **Link of Work** : [Day12_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day12_Projects)
 
-## Day 12 : September 12, 2020
+## Day 13 : September 13, 2020
 
 **Today's Progress** :  
    * Regularization to help ameliorate models from overfitting the training data.(Since machine learning models need to generalize well to new examples that the model has not seen in practice.)

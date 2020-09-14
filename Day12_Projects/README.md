@@ -1,3 +1,3 @@
 # Day 12 - Learner Classification Predictions MATLAB
 
-[Trained Scatter Plot](results/trained_scatter_plot_png)
+[Trained Scatter Plot](results/Trained_Scatter_Plot.png)

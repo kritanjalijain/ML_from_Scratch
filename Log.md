@@ -108,7 +108,7 @@
 ## Day 11 : September 11, 2020
 
 **Today's Progress** :  
-   * Regularization to help ameliorate models from overfitting the training data.(Since machine learning models need to generalize well to new examples that the model has not seen in practice.)
+   * Ridge and lasso regularization
    
 **Thoughts** :  
 
@@ -126,6 +126,13 @@
 ## Day 13 : September 13, 2020
 
 **Today's Progress** :  
-   * Regularization to help ameliorate models from overfitting the training data.(Since machine learning models need to generalize well to new examples that the model has not seen in practice.)
+   * Neural Networks
+   
+**Thoughts** :
+
+## Day 14 : September 14, 2020
+
+**Today's Progress** :  
+   * Neural Networks
    
 **Thoughts** :

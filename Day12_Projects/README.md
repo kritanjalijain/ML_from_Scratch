@@ -4,6 +4,6 @@
 
 ![](results/Confusion_Matrix.png)
 
-![](results/Roc_Curve.png)
+![](results/ROC_Curve.png)
 
 ![](results/Parallel_Coordinates_plott.png)

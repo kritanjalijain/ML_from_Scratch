@@ -137,7 +137,7 @@
    
 **Thoughts** :
 
-## Day 14 : September 14, 2020
+## Day 15 : September 15, 2020
 
 **Today's Progress** :  
    * Neural Networks

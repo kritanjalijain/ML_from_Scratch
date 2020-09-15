@@ -126,7 +126,7 @@
 ## Day 13 : September 13, 2020
 
 **Today's Progress** :  
-   * Neural Networks
+   * Understanding the need for Neural Networks
    
 **Thoughts** : One of the reasons they excite me is that maybe they give us this window into what we might do if we're also thinking of what algorithms might someday be able to learn in a manner similar to humankind. 
 

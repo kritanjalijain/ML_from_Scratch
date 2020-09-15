@@ -128,7 +128,7 @@
 **Today's Progress** :  
    * Neural Networks
    
-**Thoughts** :
+**Thoughts** : One of the reasons they excite me is that maybe they give us this window into what we might do if we're also thinking of what algorithms might someday be able to learn in a manner similar to humankind. 
 
 ## Day 14 : September 14, 2020
 

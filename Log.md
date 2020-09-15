@@ -136,3 +136,10 @@
    * Neural Networks
    
 **Thoughts** :
+
+## Day 14 : September 14, 2020
+
+**Today's Progress** :  
+   * Neural Networks
+   
+**Thoughts** :

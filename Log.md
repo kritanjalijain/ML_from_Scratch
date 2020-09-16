@@ -117,7 +117,7 @@
 ## Day 12 : September 12, 2020
 
 **Today's Progress** :  
-   * Regularization to help ameliorate models from overfitting the training data.(Since machine learning models need to generalize well to new examples that the model has not seen in practice.)
+   * Using MATLAB's Classification Learner app to train models of logistic regression to make predictions.
    
 **Thoughts** : 
 

@@ -126,21 +126,21 @@
 ## Day 13 : September 13, 2020
 
 **Today's Progress** :  
-   * Understanding the need for Neural Networks
+   * Understanding the need/intiution for Neural Networks
    
 **Thoughts** : One of the reasons they excite me is that maybe they give us this window into what we might do if we're also thinking of what algorithms might someday be able to learn in a manner similar to humankind. 
 
 ## Day 14 : September 14, 2020
 
 **Today's Progress** :  
-   * Neural Networks
+   * Neural Networks model representations, mathematical hypotheses representation and vectorized implementations
    
 **Thoughts** :
 
 ## Day 15 : September 15, 2020
 
 **Today's Progress** :  
-   * Neural Networks
+   * Neural Networks to compute a complex non linear function of the input.
    
 **Thoughts** :
 

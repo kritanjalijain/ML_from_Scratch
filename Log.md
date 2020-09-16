@@ -143,3 +143,10 @@
    * Neural Networks
    
 **Thoughts** :
+
+## Day 16 : September 16, 2020
+
+**Today's Progress** :  
+   * Neural Networks
+   
+**Thoughts** :

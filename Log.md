@@ -148,6 +148,6 @@ The first hidden layer computes some set of features from the input. The next hi
 ## Day 16 : September 16, 2020
 
 **Today's Progress** :  
-   * Neural Networks
+   * Neural Networks in multiclass classifications
    
 **Thoughts** :

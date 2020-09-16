@@ -142,7 +142,8 @@
 **Today's Progress** :  
    * Neural Networks to compute a complex non linear function of the input.
    
-**Thoughts** :
+**Thoughts** : 
+The first hidden layer computes some set of features from the input. The next hidden layer computes even more complex features and even more complex features. And these features can then be used by essentially the final layer of the logistic classifiers to make accurate predictions without the numbers that the network sees. 
 
 ## Day 16 : September 16, 2020
 

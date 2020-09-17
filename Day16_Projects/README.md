@@ -3,6 +3,8 @@
 ### Project Description
 Implement one-vs-all logistic to recognize hand-written digits.
 
+The file `data1.mat` contains the dataset for the above logisitc regression problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits.
+
 ### Project Structure 
 
 `handwriting_number_recognition_1.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.

@@ -3,7 +3,7 @@
 ### Project Description
 Implement one-vs-all logistic to recognize hand-written digits.
 
-The file `data1.mat` contains the dataset for the above logisitc regression problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits.
+The file `data1.mat` contains the dataset for the above logisitc regression problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits where each training example is a 20 pixel by 20 pixel grayscale image of the digit. Each pixel is represented by a floating point number indicating the grayscale intensity at that location. This gives us a 5000 by 400 matrix X where every row is a training example for a handwritten digit image.
 
 ### Project Structure 
 

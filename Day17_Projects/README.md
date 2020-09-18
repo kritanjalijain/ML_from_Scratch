@@ -11,10 +11,10 @@ The file `data1.mat` contains the dataset for the above logisitc regression prob
 
 User-Defined Function files
 1. `displayData.m` - Function to help visualize the dataset
-1. `fmincg.m` - Function minimization routine (similar to fminunc)
 1. `sigmoid.m` - Sigmoid function
 1. `lrCostFunction.m` - Logistic regression cost function
 1. `oneVsAll.m` - Train a one-vs-all multi-class classifier
+1. `predict.m` - 
 1. `predictOneVsAll.m` - Predict using a one-vs-all multi-class classifier
 
 ### How to run?

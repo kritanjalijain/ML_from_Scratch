@@ -174,7 +174,6 @@ The first hidden layer computes some set of features from the input. The next hi
    
 **Thoughts** :
 
-**Link of Work** : [Day17_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day17_Projects)
 
 ## Day 19 : September 19, 2020
 
@@ -185,4 +184,3 @@ The first hidden layer computes some set of features from the input. The next hi
    
 **Thoughts** :
 
-**Link of Work** : [Day17_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day17_Projects)

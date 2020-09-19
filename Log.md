@@ -164,3 +164,25 @@ The first hidden layer computes some set of features from the input. The next hi
 **Thoughts** :
 
 **Link of Work** : [Day17_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day17_Projects)
+
+## Day 18 : September 18, 2020
+
+**Today's Progress** :  
+   * Neural Networks in multiclass classifications
+   * Implemented a multi-class (one-vs-all) logistic regression model using the `fitcecoc` function from the Statistics and Machine Learning Toolbox of MATLAB. 
+   * Created a pre trained neural network using tools from the Deep Learning Toolbox which is used to classify handwritten digits.
+   
+**Thoughts** :
+
+**Link of Work** : [Day17_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day17_Projects)
+
+## Day 19 : September 19, 2020
+
+**Today's Progress** :  
+   * Neural Networks in multiclass classifications
+   * Implemented a multi-class (one-vs-all) logistic regression model using the `fitcecoc` function from the Statistics and Machine Learning Toolbox of MATLAB. 
+   * Created a pre trained neural network using tools from the Deep Learning Toolbox which is used to classify handwritten digits.
+   
+**Thoughts** :
+
+**Link of Work** : [Day17_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day17_Projects)

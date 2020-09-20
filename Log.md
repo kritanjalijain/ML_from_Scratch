@@ -179,3 +179,10 @@ The first hidden layer computes some set of features from the input. The next hi
    
 **Thoughts** :
 
+## Day 19 : September 19, 2020
+
+**Today's Progress** :  
+   
+   
+**Thoughts** :
+

@@ -168,6 +168,8 @@ The first hidden layer computes some set of features from the input. The next hi
 ## Day 18 : September 18, 2020
 
 **Today's Progress** :  
+   * Forward Propagation
+   * Algorithm for fitting parameters of cost function
    
 **Thoughts** :
 

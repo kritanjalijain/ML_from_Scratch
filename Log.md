@@ -168,8 +168,9 @@ The first hidden layer computes some set of features from the input. The next hi
 ## Day 18 : September 18, 2020
 
 **Today's Progress** :  
-   * Forward Propagation
+   * Neural Networks
    * Algorithm for fitting parameters of cost function
+   * Forward Propagation
    
 **Thoughts** :
 
@@ -177,6 +178,7 @@ The first hidden layer computes some set of features from the input. The next hi
 ## Day 19 : September 19, 2020
 
 **Today's Progress** :  
+* Backpropagation
    
    
 **Thoughts** :

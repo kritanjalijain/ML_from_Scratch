@@ -169,7 +169,7 @@ The first hidden layer computes some set of features from the input. The next hi
 
 **Today's Progress** :  
    * Neural Networks
-   * Algorithm for fitting parameters of cost function
+   * Algorithm for fitting parameters and optimizing the cost function
    * Forward Propagation
    
 **Thoughts** :

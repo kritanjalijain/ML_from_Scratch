@@ -108,7 +108,8 @@
 ## Day 11 : September 11, 2020
 
 **Today's Progress** :  
-   * Ridge and lasso regularization
+   * Ridge regularization
+   * Lasso regularization
    
 **Thoughts** :  
 
@@ -172,7 +173,7 @@ The first hidden layer computes some set of features from the input. The next hi
    * Algorithm for fitting parameters and optimizing the cost function
    * Forward Propagation algorithm
    
-**Thoughts** :
+**Thoughts** : 
 
 
 ## Day 19 : September 19, 2020
@@ -181,7 +182,7 @@ The first hidden layer computes some set of features from the input. The next hi
 * Backpropagation algorithm
 * Implementation of appropriate network architecture for learning model
    
-**Thoughts** :
+**Thoughts** : Its really fascinating to see the various applications of neural networks like autonomous driving, how the algorithm learns itself and responds under different variables.
 
 ## Day 20 : September 20, 2020
 

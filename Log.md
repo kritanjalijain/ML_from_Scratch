@@ -149,6 +149,7 @@ The first hidden layer computes some set of features from the input. The next hi
 
 **Today's Progress** :  
    * Neural Networks in multiclass classifications
+   * Neural Networks in binary classifications
    
 **Thoughts** :
 
@@ -157,7 +158,6 @@ The first hidden layer computes some set of features from the input. The next hi
 ## Day 17 : September 17, 2020
 
 **Today's Progress** :  
-   * Neural Networks in multiclass classifications
    * Implemented a multi-class (one-vs-all) logistic regression model using the `fitcecoc` function from the Statistics and Machine Learning Toolbox of MATLAB. 
    * Created a pre trained neural network using tools from the Deep Learning Toolbox which is used to classify handwritten digits.
    
@@ -179,6 +179,7 @@ The first hidden layer computes some set of features from the input. The next hi
 
 **Today's Progress** :  
 * Backpropagation algorithm
+* Implementation of appropriate network architecture for learning model
    
 **Thoughts** :
 

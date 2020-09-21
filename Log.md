@@ -168,7 +168,7 @@ The first hidden layer computes some set of features from the input. The next hi
 ## Day 18 : September 18, 2020
 
 **Today's Progress** :  
-   * Neural Networks
+   * Training Neural Networks
    * Algorithm for fitting parameters and optimizing the cost function
    * Forward Propagation
    
@@ -180,13 +180,21 @@ The first hidden layer computes some set of features from the input. The next hi
 **Today's Progress** :  
 * Backpropagation
    
-   
 **Thoughts** :
 
 ## Day 20 : September 20, 2020
 
 **Today's Progress** :  
-   
+   * Unrolling parameters to vectorize them in order to use advanced optimization routines
    
 **Thoughts** :
+
+## Day 21 : September 21, 2020
+
+**Today's Progress** :  
+   * Implementing backpropagation algorithm on neural network for handwritten digit recognition.
+   
+**Thoughts** :
+
+**Link of Work** : [Day21_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day21_Projects)
 

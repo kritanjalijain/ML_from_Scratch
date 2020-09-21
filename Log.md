@@ -187,6 +187,7 @@ The first hidden layer computes some set of features from the input. The next hi
 **Today's Progress** :  
    * Unrolling parameters to vectorize them in order to use advanced optimization routines
    * Using gradient checking for debugging backpropagation algorithms
+   * Random initializaton for symmetry breaking
    
 **Thoughts** :
 

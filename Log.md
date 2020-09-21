@@ -170,7 +170,7 @@ The first hidden layer computes some set of features from the input. The next hi
 **Today's Progress** :  
    * Training Neural Networks
    * Algorithm for fitting parameters and optimizing the cost function
-   * Forward Propagation
+   * Forward Propagation algorithm
    
 **Thoughts** :
 
@@ -178,7 +178,7 @@ The first hidden layer computes some set of features from the input. The next hi
 ## Day 19 : September 19, 2020
 
 **Today's Progress** :  
-* Backpropagation
+* Backpropagation algorithm
    
 **Thoughts** :
 
@@ -186,6 +186,7 @@ The first hidden layer computes some set of features from the input. The next hi
 
 **Today's Progress** :  
    * Unrolling parameters to vectorize them in order to use advanced optimization routines
+   * Using gradient checking for debugging backpropagation algorithms
    
 **Thoughts** :
 

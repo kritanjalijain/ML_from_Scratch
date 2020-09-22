@@ -207,7 +207,7 @@ The first hidden layer computes some set of features from the input. The next hi
 **Today's Progress** :  
    * Implementing backpropagation algorithm on neural network for handwritten digit recognition.
    
-**Thoughts** : Back propagation is a very complicated algorithm and will be able to fit very complex, powerful, non-linear functions to the data, and this is one of the most effective learning algorithms we have today. 
+**Thoughts** : 
 
 **Link of Work** : [Day22_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day22_Projects)
 

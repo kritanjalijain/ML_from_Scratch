@@ -202,7 +202,7 @@ The first hidden layer computes some set of features from the input. The next hi
 
 **Link of Work** : [Day21_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day21_Projects)
 
-## Day 21 : September 21, 2020
+## Day 22 : September 22, 2020
 
 **Today's Progress** :  
    * Implementing backpropagation algorithm on neural network for handwritten digit recognition.

@@ -209,5 +209,5 @@ The first hidden layer computes some set of features from the input. The next hi
    
 **Thoughts** : Back propagation is a very complicated algorithm and will be able to fit very complex, powerful, non-linear functions to the data, and this is one of the most effective learning algorithms we have today. 
 
-**Link of Work** : [Day21_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day21_Projects)
+**Link of Work** : [Day22_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day22_Projects)
 

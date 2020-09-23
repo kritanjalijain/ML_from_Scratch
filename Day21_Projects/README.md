@@ -11,8 +11,8 @@ The file `data1.mat` contains the dataset for the above neural network problem. 
 
 User-Defined Function files
 
-1. `data1.mat` - Training set of hand-written digits
-1. `weights.mat` - Neural network parameters 
+* `data1.mat` - Training set of hand-written digits
+* `weights.mat` - Neural network parameters 
 
 1. `displayData.m` - Function to help visualize the dataset
 1. `sigmoid.m` - Sigmoid function

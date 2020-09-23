@@ -17,6 +17,17 @@ User-Defined Function files
 1. `predict.m` - 
 1. `predictOneVsAll.m` - Predict using a one-vs-all multi-class classifier
 
+1. `fmincg.m` - Function minimization routine (similar to fminunc)
+1. `sigmoid.m` - Sigmoid function
+1. `computeNumericalGradient.m` - Numerically compute gradients
+1.`checkNNGradients.m` - Function to help check your gradients
+1. `debugInitializeWeights.m` - Function for initializing weights
+1. `predict.m` - Neural network prediction function
+1. `sigmoidGradient.m` - Compute the gradient of the sigmoid function
+1. `randInitializeWeights.m` - Randomly initialize weights
+1. `nnCostFunction.m` - Neural network cost function
+
+
 ### How to run?
 You can run project either in `octave` or `MATLAB`. 
 1. Clone repository using `git clone `

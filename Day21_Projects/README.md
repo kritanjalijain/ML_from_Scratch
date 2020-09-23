@@ -1,13 +1,13 @@
-# Day 21 - Mutli-classifictation Neural Network using backpropagation Project 2 (Handwriting Recognition)
+# Day 21 - Neural Network using backpropagation Project 2 (Handwriting Recognition)
 
 ### Project Description
-Implement one-vs-all neural network to recognize hand-written digits.
+Implement backpropagation neural network to recognize hand-written digits.
 
-The file `data1.mat` contains the dataset for the above logisitc regression problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits.
+The file `data1.mat` contains the dataset for the above neural network problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits.
 
 ### Project Structure 
 
-`handwriting_recognition_2.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
+`handwriting_recognition_3.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
 
 User-Defined Function files
 1. `displayData.m` - Function to help visualize the dataset
@@ -21,7 +21,7 @@ User-Defined Function files
 You can run project either in `octave` or `MATLAB`. 
 1. Clone repository using `git clone `
 2. `cd` to project directory and either run following command in `octave` or `MATLAB`
-2. `run('handwriting_recognition_2.m')` to run this project
+2. `run('handwriting_recognition_3.m')` to run this project
 
 ### Where to find help?
 * If you do not have Octave installed, please refer to the installation instructions on the [Octave Download](https://www.gnu.org/software/octave/download.html) official site.

@@ -10,6 +10,10 @@ The file `data1.mat` contains the dataset for the above neural network problem. 
 `handwriting_recognition_3.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
 
 User-Defined Function files
+
+1. `data1.mat` - Training set of hand-written digits
+1. `weights.mat` - Neural network parameters 
+
 1. `displayData.m` - Function to help visualize the dataset
 1. `sigmoid.m` - Sigmoid function
 1. `fmincg.m` - Function minimization routine (similar to fminunc)

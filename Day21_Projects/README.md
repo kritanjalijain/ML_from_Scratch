@@ -1,4 +1,4 @@
-# Day 17 - Mutli-classifictation Neural Network Project 1 (Handwriting Recognition)
+# Day 21 - Mutli-classifictation Neural Network using backpropagation Project 2 (Handwriting Recognition)
 
 ### Project Description
 Implement one-vs-all neural network to recognize hand-written digits.

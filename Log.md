@@ -214,7 +214,7 @@ The first hidden layer computes some set of features from the input. The next hi
 ## Day 23 : September 23, 2020
 
 **Today's Progress** :  
-   * Implementing backpropagation algorithm on neural network for handwritten digit recognition.
+   * 
    
 **Thoughts** : 
 

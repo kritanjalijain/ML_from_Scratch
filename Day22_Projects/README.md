@@ -15,9 +15,14 @@ or Launch Neural Network Start app using `nmstart` and choose the pattern recogn
   3. In the Validation and Test Data page, select 5% for 'Validation' and 'Testing' and click 'Next
 * Create and train the network
   1. In the Network Architecture page, enter '25' for the 'Number of Hidden Neurons' and click 'Next'.
+  
+![](handwriting_recognition_pattern_recognition_app/results/neural_network_pattern.png)
+###### Figure 1 - Nueral Network Training Model Architecture
+
   2. In the Train Network page, click the 'Train' button. The Neural Network Training Tool app will automatically open and train network. When the training is finished, several plots are available forinspection which provide information on the training and performance of the network model in the 'Plots' section of the Neural Network Training Tool.
   
 ![](handwriting_recognition_pattern_recognition_app/results/neural_network_training_tool.png)
+###### Figure 2 - Network Training tool window after training
 
   3. Close the Neural Network Training Tool, return to the Pattern Recognition App, and click 'Next'.
 * Evaluate and export the network

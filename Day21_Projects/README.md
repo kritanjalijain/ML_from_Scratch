@@ -11,7 +11,7 @@ Before starting on any task, it is often useful to understand the data by visual
 
 ![](results/V1.png)
 
-###### Figure 1- 100 examples from the dataset
+###### Figure 1- Display 100 examples from the dataset
 
 
 ### Project Structure 

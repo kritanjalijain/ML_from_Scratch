@@ -25,15 +25,15 @@ Implementing the cost function and gradient for the neural network in `nnCostFun
 ### Backpropagation
 Implementing the backpropagation algorithm to compute the gradient for the neural network cost function so that the `nnCostFunction.m` returns an appropriate value for `grad`.
 After computing the gradient, the neural network is trained by minimizing the cost function using advanced optimizer `fmincg`.
-#### Sigmoid gradient
+#### *Sigmoid gradient*
 First implemented the sigmoid gradient function and called `sigmoidGradient.m`
-#### Random initialization
+#### *Random initialization*
 When training neural networks, it is important to randomly initialize the parameters for symmetry breaking. The `randInitializeWeights.m` initializes the weights to small values.
 ![](handwritten_digit_recognition_backpropagation/results/backprop.png)
 
 ###### Figure 3- Backpropagation
 
-#### Gradient Checking
+#### *Gradient Checking*
 Implemented the function to compute the numerical gradient in `computeNumericalGradient.m`. `handwriting_recognition_3.m` will run the provided function `checkNNGradients.m`
 which will create a small neural network and dataset that will be used for checking the gradients. If the backpropagation implementation is correct, the relative difference should be less than 1e-9.
 

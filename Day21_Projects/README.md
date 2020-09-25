@@ -1,9 +1,18 @@
 # Day 21 - Neural Network using backpropagation Project 2 (Handwriting Recognition)
 
 ### Project Description
-Implement backpropagation neural network to recognize hand-written digits.
+Implement backpropagation algorithm to learn the parameters for the neural network to recognize hand-written digits.
 
 The file `data1.mat` contains the dataset for the above neural network problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits.
+The `weights.mat` contsains the parameters of the neural network.
+
+### Visualizing the data
+Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, load and display the data on a 2-dimensional plot by calling the function `displayData`.
+
+![](results/V1.png)
+
+###### Figure 1- 100 examples from the dataset
+
 
 ### Project Structure 
 

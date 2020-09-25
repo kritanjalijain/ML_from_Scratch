@@ -230,8 +230,19 @@ The first hidden layer computes some set of features from the input. The next hi
 
 **Today's Progress** :  
    * Machine learning system design
+   * High bias and variance
+   * Test and cross validation
    
 **Thoughts** : 
+
+## Day 26 : September 26, 2020
+
+**Today's Progress** :  
+   * 
+   
+**Thoughts** : 
+
+
 
 
 

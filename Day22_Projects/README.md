@@ -37,7 +37,12 @@ or Launch Neural Network Start app using `nmstart` and choose the pattern recogn
  
 ![](handwriting_recognition_pattern_recognition_app/results/prediction.png)
 
- ```Output: True class: 7  |  Predicted class: 7 | Probability of match: 90.6%```
+ Output: ```True class: 7  |  Predicted class: 7 | Probability of match: 90.6% ```
+ 
+ ### Train a custom network with regularization
+ The local function for building and training a pattern recognition network `imageNet` at the end of this script, when called, it will build, train, and return neural network model variable which can be usedfor classifying digit images. Since `imageNet` is a local function, it can only be called from inside the script `handwriting_recognition_4.m`. The training accuracy is then displayed for comparison with the previous results. 
+ 
+ Output: ```Training accuracy: 95.6% ```
 
 ### Project Structure 
 

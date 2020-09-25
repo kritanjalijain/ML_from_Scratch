@@ -5,6 +5,16 @@ Use the Neural Net Pattern Recognition App from the Neural Network Toolbox  in M
 
 The file `data1.mat` contains the dataset for the above neural network problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits.
 
+### Creating a Pattern Recognition Network using `nprtool`
+* Load the data
+* Launch the pattern recognition app
+
+###  Training a digit classifier using the Pattern Recognition App
+* Open the Pattern Recognition App and select the data
+  1. In the Welcome page, read the information about the pattern recognition network uses and structure,then click Next.
+  2. In the Select Data page, select X from the Inputs list, select Y from the Targets list, and select 'Matrixrows' for the sample orientation, then click 'Next'.
+  3. In the Validation and Test Data page, select 5% for 'Validation' and 'Testing' and click 'Next
+
 ### Project Structure 
 
 `handwriting_recognition_4.m` - MATLAB script to set up the dataset for the problem and make calls to user-defined functions.

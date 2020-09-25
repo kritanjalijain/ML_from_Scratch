@@ -33,6 +33,7 @@ When training neural networks, it is important to randomly initialize the parame
 
 ###### Figure 3- Backpropagation
 
+
 #### *Gradient Checking*
 Implemented the function to compute the numerical gradient in `computeNumericalGradient.m`. `handwriting_recognition_3.m` will run the provided function `checkNNGradients.m`
 which will create a small neural network and dataset that will be used for checking the gradients. If the backpropagation implementation is correct, the relative difference should be less than 1e-9.
@@ -42,6 +43,8 @@ One way to understand what the neural network is learning is to visualize what t
 
 ![](handwritten_digit_recognition_backpropagation/results/neural_network_2.gif)
 ###### Figure 4- Visualisation the hidden layer
+
+
 
 Try out different learning settings for the neural network to see how the performance of the neural network varies with the regularization parameter lambda and number of training steps (the `MaxIter` option when using `fmincg`).
 

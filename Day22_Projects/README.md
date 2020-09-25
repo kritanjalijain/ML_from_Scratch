@@ -24,6 +24,9 @@ or Launch Neural Network Start app using `nmstart` and choose the pattern recogn
 ![](handwriting_recognition_pattern_recognition_app/results/neural_network_training_tool.png)
 ###### Figure 2 - Network Training tool window after training
 
+![](handwriting_recognition_pattern_recognition_app/results/confusion.png)
+###### Figure 3 - Confusion 
+
   3. Close the Neural Network Training Tool, return to the Pattern Recognition App, and click 'Next'.
 * Evaluate and export the network
  After creating and training the network, there are available options for visualizing the network's performance andmaking adjustments if needed. Once the network is performing well, export it. `pattern_recognition.m` is the script generated for building and training similar networks. 

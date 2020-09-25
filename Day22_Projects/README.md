@@ -1,7 +1,7 @@
 # Day 22 - Neural Network using Pattern Recognition App MATLAB Project 2 (Handwriting Recognition)
 
 ### Project Description
-Implement neural network to recognize hand-written digits.
+Use the Neural Net Pattern Recognition App from the Neural Network Toolbox  in MATLAB to build and train a neural network for hand-written digit recognition.
 
 The file `data1.mat` contains the dataset for the above neural network problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits.
 

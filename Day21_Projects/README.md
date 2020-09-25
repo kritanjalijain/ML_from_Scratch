@@ -40,6 +40,7 @@ which will create a small neural network and dataset that will be used for check
 ### Visualising the hidden layer
 One way to understand what the neural network is learning is to visualize what the representations captured by the hidden units. To visualize is to reshape the 400 dimensional vector into a 20 x 20 image and display it. This is done by using the `displayData` function and it will show an image (similar to Figure 4) with 25 units, each corresponding to one hidden unit in the network. In the trained network, the hidden units corresponds roughly to detectors that look for strokes and other patterns in the input.
 
+![](handwritten_digit_recognition_backpropagation/results/neural_network_2.gif)
 ###### Figure 4- Visualisation the hidden layer
 
 Try out different learning settings for the neural network to see how the performance of the neural network varies with the regularization parameter lambda and number of training steps (the `MaxIter` option when using `fmincg`).

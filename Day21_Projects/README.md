@@ -20,7 +20,7 @@ The parameters (Theta1 and Theta2) have dimensions that are sized for a neural n
 Implementing the cost function and gradient for the neural network in `nnCostFunction.m` to return the cost.
 ![](handwritten_digit_recognition_backpropagation/results/feedfor.png)
 
-###### Figure 2- Display 100 examples from the dataset
+###### Figure 2- Neural Network Model
 
 ### Backpropagation
 Implementing the backpropagation algorithm to compute the gradient for the neural network cost function so that the `nnCostFunction.m` returns an appropriate value for `grad`.
@@ -31,7 +31,8 @@ First implemented the sigmoid gradient function and called `sigmoidGradient.m`
 When training neural networks, it is important to randomly initialize the parameters for symmetry breaking. The `randInitializeWeights.m` initializes the weights to small values.
 ![](handwritten_digit_recognition_backpropagation/results/backprop.png)
 
-###### Figure 3- Display 100 examples from the dataset
+###### Figure 3- Backpropagation
+
 #### Gradient Checking
 Implemented the function to compute the numerical gradient in `computeNumericalGradient.m`. `handwriting_recognition_3.m` will run the provided function `checkNNGradients.m`
 which will create a small neural network and dataset that will be used for checking the gradients. If the backpropagation implementation is correct, the relative difference should be less than 1e-9.
@@ -40,6 +41,8 @@ which will create a small neural network and dataset that will be used for check
 One way to understand what the neural network is learning is to visualize what the representations captured by the hidden units. To visualize is to reshape the 400 dimensional vector into a 20 x 20 image and display it. This is done by using the `displayData` function and it will show an image (similar to Figure 4) with 25 units, each corresponding to one hidden unit in the network. In the trained network, the hidden units corresponds roughly to detectors that look for strokes and other patterns in the input.
 
 ###### Figure 4- Visualisation the hidden layer
+
+Try out different learning settings for the neural network to see how the performance of the neural network varies with the regularization parameter lambda and number of training steps (the `MaxIter` option when using `fmincg`).
 
 ### Project Structure 
 

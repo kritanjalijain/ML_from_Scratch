@@ -9,7 +9,7 @@ The `weights.mat` contsains the parameters of the neural network.
 ### Visualizing the data
 Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, load and display the data on a 2-dimensional plot by calling the function `displayData`.
 
-![](results/V1.png)
+![](handwritten_digit_recognition_backpropagation/results/V1.png)
 
 ###### Figure 1- Display 100 examples from the dataset
 

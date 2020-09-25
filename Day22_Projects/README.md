@@ -6,14 +6,30 @@ Use the Neural Net Pattern Recognition App from the Neural Network Toolbox  in M
 The file `data1.mat` contains the dataset for the above neural network problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits.
 
 ### Creating a Pattern Recognition Network using `nprtool`
-* Load the data
-* Launch the pattern recognition app
+or Launch Neural Network Start app using `nmstart` and choose the pattern recognition app
 
 ###  Training a digit classifier using the Pattern Recognition App
 * Open the Pattern Recognition App and select the data
   1. In the Welcome page, read the information about the pattern recognition network uses and structure,then click Next.
   2. In the Select Data page, select X from the Inputs list, select Y from the Targets list, and select 'Matrixrows' for the sample orientation, then click 'Next'.
   3. In the Validation and Test Data page, select 5% for 'Validation' and 'Testing' and click 'Next
+* Create and train the network
+  1. In the Network Architecture page, enter '25' for the 'Number of Hidden Neurons' and click 'Next'.
+  2. In the Train Network page, click the 'Train' button. The Neural Network Training Tool app will automatically open and train network. When the training is finished, several plots are available forinspection which provide information on the training and performance of the network model in the 'Plots' section of the Neural Network Training Tool.
+  
+![](handwriting_recognition_pattern_recognition_app/results/neural_network_training_tool.png)
+
+  3. Close the Neural Network Training Tool, return to the Pattern Recognition App, and click 'Next'.
+* Evaluate and export the network
+ After creating and training the network, there are available options for visualizing the network's performance andmaking adjustments if needed. Once the network is performing well, export it. `pattern_recognition.m` is the script generated for building and training similar networks. 
+ 
+ ### Predict digits using the trained network variable
+ Run the `handwriting_recognition_4.m` to estimate the class of a random example using the network variable you trained above,compare with the true class, and display the corresponding image using the trained network.
+ 
+ 
+![](handwriting_recognition_pattern_recognition_app/results/prediction.png)
+
+ ```Output: True class: 7  |  Predicted class: 7 | Probability of match: 90.6%```
 
 ### Project Structure 
 

@@ -214,14 +214,22 @@ The first hidden layer computes some set of features from the input. The next hi
 ## Day 23 : September 23, 2020
 
 **Today's Progress** :  
-   * 
+   * Updated pending github READMEs and organized repo
    
 **Thoughts** : 
 
 ## Day 24 : September 24, 2020
 
 **Today's Progress** :  
-   * 
+   * Learning about systematically improving the learning algorithm i.e. how to evaluate a hypotheses, select the training model and validation sets and test sets.
+   * Learning on how to tell when a learning algorithm is doing poorly, and describe the 'best practices' for how to 'debug' the learning algorithm and go about improving its performance. 
+   
+**Thoughts** : 
+
+## Day 25 : September 25, 2020
+
+**Today's Progress** :  
+   * Machine learning system design
    
 **Thoughts** : 
 

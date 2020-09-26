@@ -238,7 +238,8 @@ The first hidden layer computes some set of features from the input. The next hi
 ## Day 26 : September 26, 2020
 
 **Today's Progress** :  
-   * 
+   * k-folds
+   * spam classifier
    
 **Thoughts** : 
 

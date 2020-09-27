@@ -243,6 +243,13 @@ The first hidden layer computes some set of features from the input. The next hi
    
 **Thoughts** : 
 
+## Day 27 : September 27, 2020
+
+**Today's Progress** :  
+   * SVM algorithm
+   
+**Thoughts** : SVMs are considered by many to be the most powerful 'black box' learning algorithm, and by posing a cleverly-chosen optimization objective, one of the most widely used learning algorithms today. 
+
 
 
 

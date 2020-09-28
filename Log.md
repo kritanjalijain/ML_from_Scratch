@@ -250,6 +250,14 @@ The first hidden layer computes some set of features from the input. The next hi
    
 **Thoughts** : SVMs are considered by many to be the most powerful 'black box' learning algorithm, and by posing a cleverly-chosen optimization objective, one of the most widely used learning algorithms today. 
 
+## Day 28 : September 28, 2020
+
+**Today's Progress** :  
+   * Kernels for complex non-linear functions
+   * Similarity and landmarks
+   
+**Thoughts** : SVMs are considered by many to be the most powerful 'black box' learning algorithm, and by posing a cleverly-chosen optimization objective, one of the most widely used learning algorithms today.
+
 
 
 

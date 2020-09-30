@@ -265,6 +265,16 @@ The first hidden layer computes some set of features from the input. The next hi
    
 **Thoughts** : 
  * 
+ 
+ **Thoughts** : 
+
+## Day 30: September 30, 2020
+
+**Today's Progress** :  
+   * SVM Application
+   
+**Thoughts** : 
+ * 
 
 
 

@@ -64,7 +64,7 @@
    
 **Thoughts** : Visualizing data really helps understand the model better.
 
-**Link of Work:**  [Day6_Projects](https://github.com/kritanjalijain/)
+**Link of Work:**  [Day6_Projects](https://github.com/kritanjalijain/Blog--100_Days_0f_ML/tree/master/Day6_Projects)
 
 ## Day 7 : September 07, 2020
 

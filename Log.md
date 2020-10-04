@@ -282,6 +282,30 @@ The first hidden layer computes some set of features from the input. The next hi
    
 **Thoughts** : 
  * 
+ * 
+## Day 32: October 4, 2020
+
+**Today's Progress** :  
+   * This lab will give you hands-on practice with TensorFlow 2.x model training, both locally and on AI Platform. After training, you will learn how to deploy your model to AI Platform for serving (prediction). You'll train your model to predict income category of a person using the United States Census Income Dataset.
+
+This lab gives you an introductory, end-to-end experience of training and prediction on AI Platform. The lab will use a census dataset to:
+
+    Create a TensorFlow 2.x training application and validate it locally.
+    Run your training job on a single worker instance in the cloud.
+    Deploy a model to support prediction.
+    Request an online prediction and see the response.
+
+What you will build
+
+The sample builds a classification model for predicting income category based on United States Census Income Dataset. The two income categories (also known as labels) are:
+
+    >50K — Greater than 50,000 dollars
+    <=50K — Less than or equal to 50,000 dollars
+
+The sample defines the model using the Keras Sequential API. The sample defines the data transformations particular to the census dataset, then assigns these (potentially) transformed features to either the DNN or the linear portion of the model.
+   
+**Thoughts** : 
+ * 
 
 
 

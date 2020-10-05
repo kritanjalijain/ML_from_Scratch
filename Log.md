@@ -283,7 +283,7 @@ The first hidden layer computes some set of features from the input. The next hi
 **Thoughts** : 
  * 
  * 
-## Day 32: October 4, 2020
+## Day 32: October 04, 2020
 
 **Today's Progress** :  
    * This lab will give you hands-on practice with TensorFlow 2.x model training, both locally and on AI Platform. After training, you will learn how to deploy your model to AI Platform for serving (prediction). You'll train your model to predict income category of a person using the United States Census Income Dataset.
@@ -307,5 +307,5 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 **Thoughts** : 
  * 
 
-
+## Day 33: October 05, 2020
 

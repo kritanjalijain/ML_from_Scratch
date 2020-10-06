@@ -1,31 +1,34 @@
 ## Day 30 Project - Builiding a spam email classifier using SVM
 
-SVM.m - Octave/MATLAB script 
-data1.mat - Example Dataset 1
-data2.mat - Example Dataset 2
-data3.mat - Example Dataset 3
-svmTrain.m - SVM training function
-svmPredict.m - SVM prediction function
-plotData.m - Plot 2D data
-visualizeBoundaryLinear.m - Plot linear boundary
-visualizeBoundary.m - Plot non-linear boundary
-linearKernel.m - Linear kernel for SVM
-gaussianKernel.m - Gaussian kernel for SVM
-dataset3Params.m - Parameters to use for Dataset 3
-spam_classifier.m - Octave/MATLAB script 
-spamTrain.mat - Spam training set
-spamTest.mat - Spam test set
-emailSample1.txt - Sample email 1
-emailSample2.txt - Sample email 2
-spamSample1.txt - Sample spam 1
-spamSample2.txt - Sample spam 2
-amey_email_sample1 - Personal email as sample
-vocab.txt - Vocabulary list
-getVocabList.m - Load vocabulary list
-porterStemmer.m - Stemming function
-readFile.m - Reads a file into a character string
-processEmail.m - Email preprocessing
-emailFeatures.m - Feature extraction from emails
+### Project Structure 
+
+`spam_classifier.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
+
+* SVM.m - Octave/MATLAB script 
+* data1.mat - Example Dataset 1
+* data2.mat - Example Dataset 2
+* data3.mat - Example Dataset 3
+* svmTrain.m - SVM training function
+* svmPredict.m - SVM prediction function
+* plotData.m - Plot 2D data
+* visualizeBoundaryLinear.m - Plot linear boundary
+* visualizeBoundary.m - Plot non-linear boundary
+* linearKernel.m - Linear kernel for SVM
+* gaussianKernel.m - Gaussian kernel for SVM
+* dataset3Params.m - Parameters to use for Dataset 3
+* spamTrain.mat - Spam training set
+* spamTest.mat - Spam test set
+* emailSample1.txt - Sample email 1
+* emailSample2.txt - Sample email 2
+* spamSample1.txt - Sample spam 1
+* spamSample2.txt - Sample spam 2
+* amey_email_sample1 - Personal email as sample
+* vocab.txt - Vocabulary list
+* getVocabList.m - Load vocabulary list
+* porterStemmer.m - Stemming function
+* readFile.m - Reads a file into a character string
+* processEmail.m - Email preprocessing
+* emailFeatures.m - Feature extraction from emails
 
 ### How to run?
 You can run project either in `octave` or `MATLAB`. 

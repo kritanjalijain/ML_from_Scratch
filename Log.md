@@ -323,3 +323,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 ## Day 36: October 08, 2020
 
 **Thoughts** : 
+
+## Day 37: October 09, 2020
+
+**Thoughts** : 

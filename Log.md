@@ -331,3 +331,13 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 ## Day 38: October 10, 2020
 
 **Thoughts** : 
+
+## Day 39: October 11, 2020
+
+* Unsupervised Learning - Clustering
+  1. K means algorithm
+      * Optimization objective
+      * Random Initialization
+      * Number of clusters K
+
+**Thoughts** : 

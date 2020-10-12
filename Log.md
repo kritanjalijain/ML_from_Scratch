@@ -349,6 +349,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
    * Data visualization
  * Principal Component analysis -
    * Foundation
+   * Problem formulation
    * Algorithm
 
 **Thoughts** : 

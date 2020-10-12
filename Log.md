@@ -341,3 +341,14 @@ The sample defines the model using the Keras Sequential API. The sample defines 
       * Number of clusters K
 
 **Thoughts** : 
+
+## Day 40: October 12, 2020
+
+* Dimensionality reduction -
+   * Data compression
+   * Data visualization
+ * Principal Component analysis -
+   * Foundation
+   * Algorithm
+
+**Thoughts** : 

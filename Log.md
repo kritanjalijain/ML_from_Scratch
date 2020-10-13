@@ -353,3 +353,12 @@ The sample defines the model using the Keras Sequential API. The sample defines 
    * Algorithm
 
 **Thoughts** : 
+
+## Day 41: October 13, 2020
+
+ * Reconstruction of original high dimensional data from compressed representation
+ * Choosing number of prinicipal components k
+ * Principal Component analysis applications
+ * Speed up running time of learning algorithms using PCA
+  
+**Thoughts** : 

@@ -1,4 +1,4 @@
-## Day 40 Project -
+## Day 40 Project - Image Compression using k-means algorithm, clustering, pca
 
 ### Project Structure 
 

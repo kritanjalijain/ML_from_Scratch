@@ -3,6 +3,24 @@
 ### Project Structure 
 
 `spam_classifier.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
+ex7.m - Octave/MATLAB script for the rst exercise on K-means
+ex7 pca.m - Octave/MATLAB script for the second exercise on PCA
+
+* data1.mat - Example Dataset for PCA
+* data2.mat - Example Dataset for K-means
+* faces.mat - Faces Dataset
+* girl.png - Example Image
+* displayData.m - Displays 2D data stored in a matrix
+* drawLine.m - Draws a line over an exsiting figure
+* plotDataPoints.m - Initialization for K-means centroids
+* plotProgresskMeans.m - Plots each step of K-means as it proceeds
+* runkMeans.m - Runs the K-means algorithm
+* pca.m - Perform principal component analysis
+* projectData.m - Projects a data set into a lower dimensional space
+* recoverData.m - Recovers the original data from the projection
+* findClosestCentroids.m - Find closest centroids (used in K-means)
+* computeCentroids.m - Compute centroid means (used in K-means)
+* kMeansInitCentroids.m - Initialization for K-means centroids
 
 ### How to run?
 You can run project either in `octave` or `MATLAB`. 

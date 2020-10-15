@@ -362,3 +362,11 @@ The sample defines the model using the Keras Sequential API. The sample defines 
  * Speed up running time of learning algorithms using PCA
   
 **Thoughts** : 
+
+## Day 42: October 14, 2020
+
+ * Density Estimation
+ * Multivariant gaussian distribution
+ * Anomaly Detection system applications, algorithm
+ 
+**Thoughts** : 

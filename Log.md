@@ -374,6 +374,8 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 ## Day 43: October 15, 2020
 
  * Formalism of a recommendation system problem
- *
+ * Content based recommendation system -
+     * Optimization objective
+     * Optimization algorithm
  
 **Thoughts** : 

@@ -377,5 +377,6 @@ The sample defines the model using the Keras Sequential API. The sample defines 
  * Content based recommendation system -
      * Optimization objective
      * Optimization algorithm
+  * Collaborative Filtering
  
 **Thoughts** : 

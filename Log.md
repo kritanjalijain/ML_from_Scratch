@@ -383,10 +383,13 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 
 ## Day 44: October 16, 2020
 
- * Formalism of a recommendation system problem
- * Content based recommendation system -
-     * Optimization objective
-     * Optimization algorithm
-  * Collaborative Filtering
+  * Collaborative Filtering Algorithm
+  * Low Rank Matrix Factorization on recommendation systems
+ 
+**Thoughts** : 
+
+## Day 45: October 17, 2020
+
+  * Mean Normalization implemention on recommendation systems
  
 **Thoughts** : 

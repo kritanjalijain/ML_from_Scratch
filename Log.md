@@ -400,5 +400,6 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   * A way for approximately monitoring how the stochastic gradient descent is doing in terms for optimizing the cost function and its convergence behaviour
   * Mini batch gradient descent on larger datasets
   * Map reduce and data parallelism 
+  * Introduction to online learning algorithms for continuous stream of data
  
 **Thoughts** : 

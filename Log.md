@@ -397,6 +397,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 ## Day 46: October 18, 2020
 
   * Stochatic gradient descent on larger datasets
+  * A way for approximately monitoring how the stochastic gradient descent is doing in terms for optimizing the cost function and its convergence behaviour
   * Mini batch gradient descent on larger datasets
   * Map reduce and data parallelism 
  

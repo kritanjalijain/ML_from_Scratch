@@ -393,3 +393,11 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   * Mean Normalization implemention on recommendation systems
  
 **Thoughts** : 
+
+## Day 46: October 18, 2020
+
+  * Stochatic gradient descent on larger datasets
+  * Mini batch gradient descent on larger datasets
+  * Map reduce and data parallelism 
+ 
+**Thoughts** : 

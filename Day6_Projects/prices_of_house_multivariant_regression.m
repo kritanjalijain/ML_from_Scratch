@@ -1,10 +1,8 @@
-%% Initialization
-
 %% Feature Normalization
 
 clear ; close all; clc
 
-%% Load Data
+% Load Data
 data = load('data.txt');
 X = data(:, 1:2);
 y = data(:, 3);

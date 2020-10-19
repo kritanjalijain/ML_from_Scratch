@@ -408,7 +408,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 
   * Photo OCR Application -
     * Buliding pipeline
-      * Text Detection
+      * Text Detection - sliding window crossfire
       * Character segmentation
       * Text Classification and character recognition
   * Artifical Data Synthesis 

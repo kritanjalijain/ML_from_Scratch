@@ -79,7 +79,5 @@ price = 0;
 X1 = [1 1650 3];
 price = X1 * theta;
 
-% ============================================================
-
 fprintf(['Predicted price of a 1650 sq-ft, 3 br house ''\n $%f\n'], price);
 

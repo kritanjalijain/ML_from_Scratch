@@ -68,7 +68,7 @@
 
 **Today's Progress** :  
  Classification problems - 
-   * Hypothesis representation, visualisation of *logistic regression*; decision boundary.
+   * Hypothesis representation, visualisation of logistic regression; decision boundary.
    
 **Thoughts** : Finally got to know applications of the logistic function or the sigmoid function which I studied in 11th grade. I can finally understand the real life applications of matrices, algebra and calculus studied previously. Well, this is fun :)
 
@@ -84,8 +84,6 @@
   * BFGS 
   * L-BFGS 
 
-**Thoughts** : Finally got to know applications of the logistic function or the sigmoid function which I studied in 11th grade. I can finally understand the real life applications of matrices, algebra and calculus studied previously. Well, this is fun :)
-
 ## Day 9 : September 09, 2020
 
 **Today's Progress** :  
@@ -93,8 +91,6 @@
    * One vs All
    * Derivation of cost function for logisitic regression
    * Gradient descent for minimizing the cost function J of theta for logistic regression.
-
-**Thoughts** : 
 
 ## Day 10 : September 10, 2020
 
@@ -108,8 +104,6 @@
 **Today's Progress** :  
    * Ridge regularization
    * Lasso regularization
-   
-**Thoughts** :  
 
 **Link of Work** : [Day11_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day11_Projects)
 
@@ -118,7 +112,7 @@
 **Today's Progress** :  
    * Using MATLAB's Classification Learner app to train models of logistic regression to make predictions.
    
-**Thoughts** : 
+**Thoughts** : MATLAB's inbuilt apps really make it easier to train models.
 
 **Link of Work** : [Day12_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day12_Projects)
 
@@ -133,24 +127,19 @@
 
 **Today's Progress** :  
    * Neural Networks model representations, mathematical hypotheses representation and vectorized implementations
-   
-**Thoughts** :
 
 ## Day 15 : September 15, 2020
 
 **Today's Progress** :  
    * Neural Networks to compute a complex non linear function of the input.
    
-**Thoughts** : 
-The first hidden layer computes some set of features from the input. The next hidden layer computes even more complex features and even more complex features. And these features can then be used by essentially the final layer of the logistic classifiers to make accurate predictions without the numbers that the network sees. 
+**Thoughts** : The first hidden layer computes some set of features from the input. The next hidden layer computes even more complex features and even more complex features. And these features can then be used by essentially the final layer of the logistic classifiers to make accurate predictions without the numbers that the network sees. 
 
 ## Day 16 : September 16, 2020
 
 **Today's Progress** :  
    * Neural Networks in multiclass classifications
    * Neural Networks in binary classifications
-   
-**Thoughts** :
 
 **Link of Work** : [Day16_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day16_Projects)
 
@@ -159,8 +148,6 @@ The first hidden layer computes some set of features from the input. The next hi
 **Today's Progress** :  
    * Implemented a multi-class (one-vs-all) logistic regression model using the `fitcecoc` function from the Statistics and Machine Learning Toolbox of MATLAB. 
    * Created a pre trained neural network using tools from the Deep Learning Toolbox which is used to classify handwritten digits.
-   
-**Thoughts** :
 
 **Link of Work** : [Day17_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day17_Projects)
 
@@ -170,9 +157,6 @@ The first hidden layer computes some set of features from the input. The next hi
    * Training Neural Networks
    * Algorithm for fitting parameters and optimizing the cost function
    * Forward Propagation algorithm
-   
-**Thoughts** : 
-
 
 ## Day 19 : September 19, 2020
 
@@ -188,8 +172,6 @@ The first hidden layer computes some set of features from the input. The next hi
    * Unrolling parameters to vectorize them in order to use advanced optimization routines
    * Using gradient checking for debugging backpropagation algorithms
    * Random initializaton for symmetry breaking
-   
-**Thoughts** :
 
 ## Day 21 : September 21, 2020
 
@@ -204,8 +186,6 @@ The first hidden layer computes some set of features from the input. The next hi
 
 **Today's Progress** :  
    * Implementing backpropagation algorithm on neural network for handwritten digit recognition.
-   
-**Thoughts** : 
 
 **Link of Work** : [Day22_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day22_Projects)
 

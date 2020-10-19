@@ -3,13 +3,13 @@
 ### Project Description
 In this project I implemented linear regression with multiple variables to predict the prices of houses to find a good market price to sell a house. One way to do this is to first collect information on recent houses sold and make a model of housing prices.
 
-The file `ex1data2.txt` contains a training set of housing prices in Portland, Oregon. The first column is the size of the house (in square feet), the second column is the number of bedrooms, and the third column is the price of the house.
+The file `data.txt` contains a training set of housing prices in Portland, Oregon. The first column is the size of the house (in square feet), the second column is the number of bedrooms, and the third column is the price of the house.
 
 ### Feature Normalization
 The `prices_of_house_multivariant_regression.m` script will start by loading and displaying some values from the dataset. By looking at the values, we find that house sizes are about 1000 times the number of bedrooms. Since the features differ by orders of magnitude, I first performed feature scaling to make gradient descent converge much more quickly.  The script calls the file `featureNormalize` to normalize the features.
 
 ### Gradient Descent
-Next, I fit the linear regression parameters &theta; to the dataset using batch gradient descent algorithm (minimize cost function J(&theta;)). Final values for &theta; were also be used to to predict the price of a house with 1650 square feet and 3 bedrooms. The script calls the file `computeCostmulti.m`, which is a function that computes J(&theta;) and `gradientDsecentmulti.m` to implement the algorithm.
+Next, I fit the linear regression parameters &theta; to the dataset using batch gradient descent algorithm (minimize cost function J(&theta;)). Final values for &theta; were also be used to to predict the price of a house with 1650 square feet and 3 bedrooms. The script calls the file `computeCostmulti.m`, which is a function that computes J(&theta;) and `gradientDescentmulti.m` to implement the algorithm.
 
 
 ![](results/multi_1.png)

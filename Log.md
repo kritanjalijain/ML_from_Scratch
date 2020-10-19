@@ -406,11 +406,11 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 
 ## Day 47: October 19, 2020
 
-  * Photo OCR Application -
-    * Buliding pipeline
-      * Text Detection - sliding window crossfire
+  * Buliding pipeline
+      * Text Detection 
       * Character segmentation
       * Text Classification and character recognition
+  * Sliding windows object classification for computer vision 
   * Artifical Data Synthesis 
     * Using distortions
   * Ceiling Analysis

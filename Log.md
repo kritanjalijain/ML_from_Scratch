@@ -403,3 +403,14 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   * Introduction to online learning algorithms for continuous stream of data
  
 **Thoughts** : 
+
+## Day 47: October 19, 2020
+
+  * Photo OCR Application -
+    * Buliding pipeline
+      * Text - 
+      * Character segmentation
+      * Text Classification
+  * Artifical Data Synthesis 
+    * Using distortions
+  * Ceiling Analysis

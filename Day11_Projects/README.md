@@ -2,7 +2,7 @@
 
 Here I have implemented logistic regression and apply it to two different models -
 * Built a logistic regression model [to predict whether a student gets admitted into a university](https://github.com/kritanjalijain/100_Days_0f_ML/edit/master/Day11_Projects/logistic_regression_student_admission_prediction).
-* Implemented regularized logistic regression to predict whether microchips from a fabrication plant passes quality assurance (QA)
+* Implemented regularized logistic regression [to predict whether microchips from a fabrication plant passes quality assurance](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day11_Projects/regularization_logistic_regression_microchip_prediction).
 
 ### How to run?
 You can run project either in `octave` or `MATLAB`. 

@@ -1,7 +1,7 @@
 # Logistic Regression and Regularisation
 
 Here I have implemented logistic regression and apply it to two different models -
-* Built a logistic regression model to predict whether a student gets admitted into a university.
+* Built a logistic regression model [to predict whether a student gets admitted into a university]().
 * Implemented regularized logistic regression to predict whether microchips from a fabrication plant passes quality assurance (QA)
 
 ### How to run?

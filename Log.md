@@ -392,3 +392,8 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   * Artifical Data Synthesis 
     * Using distortions
   * Ceiling Analysis
+  
+  ## Day 48: October 20, 2020
+
+  * Logisitc regression model which is a cat classifier 
+  * GCP lab

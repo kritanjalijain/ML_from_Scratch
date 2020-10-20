@@ -1,4 +1,4 @@
-# Day 11 - Logistic Regression and Regularisation
+# Logistic Regression and Regularisation
 
 
 

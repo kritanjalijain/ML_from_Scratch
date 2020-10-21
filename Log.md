@@ -397,3 +397,8 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 
   * Logisitc regression model which is a cat classifier 
   * GCP lab
+  
+   ## Day 49: October 21, 2020
+
+  * GCP lab
+

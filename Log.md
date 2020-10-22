@@ -402,3 +402,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 
   * GCP lab
 
+   ## Day 50: October 22, 2020
+
+  * GCP lab
+

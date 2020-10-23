@@ -393,16 +393,21 @@ The sample defines the model using the Keras Sequential API. The sample defines 
     * Using distortions
   * Ceiling Analysis
   
-  ## Day 48: October 20, 2020
+ ## Day 48: October 20, 2020
 
   * Logisitc regression model which is a cat classifier 
   * GCP lab
   
-   ## Day 49: October 21, 2020
+ ## Day 49: October 21, 2020
 
   * GCP lab
 
-   ## Day 50: October 22, 2020
+ ## Day 50: October 22, 2020
 
   * GCP lab
+  
+ ## Day 51: October 23, 2020
+
+  * Pandas 
+  
 

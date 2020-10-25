@@ -410,4 +410,8 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 
   * Pandas 
   
+  ## Day 52: October 26, 2020
+
+  * Pandas 
+  
 

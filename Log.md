@@ -416,4 +416,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   * Pandas 
   * CNN
   
+  ## Day 53: October 27, 2020
+  
+  
 

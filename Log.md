@@ -330,16 +330,12 @@ The sample defines the model using the Keras Sequential API. The sample defines 
    * Problem formulation
    * Algorithm
 
-**Thoughts** : 
-
 ## Day 41: October 13, 2020
 
  * Reconstruction of original high dimensional data from compressed representation
  * Choosing number of prinicipal components k
  * Principal Component analysis applications
  * Speed up running time of learning algorithms using PCA
-  
-**Thoughts** : 
 
 ## Day 42: October 14, 2020
 
@@ -347,8 +343,6 @@ The sample defines the model using the Keras Sequential API. The sample defines 
  * Multivariant gaussian distribution
  * Anomaly Detection system applications, algorithm
  
-**Thoughts** : 
-
 ## Day 43: October 15, 2020
 
  * Formalism of a recommendation system problem

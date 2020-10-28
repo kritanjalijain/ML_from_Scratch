@@ -373,8 +373,6 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   * Mini batch gradient descent on larger datasets
   * Map reduce and data parallelism 
   * Introduction to online learning algorithms for continuous stream of data
- 
-**Thoughts** : 
 
 ## Day 47: October 19, 2020
 

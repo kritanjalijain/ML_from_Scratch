@@ -1,9 +1,9 @@
 # Day 42 - Movie Recommendation System
 
 ### Project Description
-Build a recommender system for movies using collabrative filtering.
+Build a recommender system for movies using collabrative filtering. Thus, by implementing the collaborative filtering learning algorithm, we have applied it to a dataset of movie ratings. This dataset consists of ratings on a scale of 1 to 5.
 
-The first part of the script ex8 cofi.m will load the dataset `movies.mat`, providing the variables Y and R in your Octave/MATLAB environment.
+The first part of the script `cofi.m` will load the dataset `movies.mat`, providing the variables Y and R in your Octave/MATLAB environment.
 
 ### Visualizing the data and Model Representation
 Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, load and display the data on a 2-dimensional plot by calling the function `displayData`.

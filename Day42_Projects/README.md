@@ -1,3 +1,3 @@
-## Day 42: Movie Recommendation System
+# Day 42 - Movie Recommendation System
 
 

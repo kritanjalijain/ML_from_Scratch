@@ -343,6 +343,8 @@ The sample defines the model using the Keras Sequential API. The sample defines 
  * Multivariant gaussian distribution
  * Anomaly Detection system applications, algorithm
  
+ **Link of work:** [Day42_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day42_Projects)
+ 
 ## Day 43: October 15, 2020
 
  * Formalism of a recommendation system problem

@@ -19,11 +19,14 @@ User-Defined Function files
 * `movieParams.mat` - Parameters provided for debugging
 * `movie ids.txt` - List of movies
 
-1. `displayData.m` - Function to help visualize the dataset
+1. `checkCostFunction.m` - Gradient checking for collaborative filtering
+1. `computeNumericalGradient.m` - Numerically compute gradients
 1. `fmincg.m` - Function minimization routine (similar to fminunc)
 1. `loadMovieList.m` - Loads the list of movies into a cell-array
 1. `cofiCostFunc.m` - Implement the cost function for collaborative filtering
 1. `normalizeRatings.m` - Mean normalization for collaborative filtering
+1. `multivariateGaussian.m` - Computes the probability density function for a Gaussian distribution
+1. `visualizeFit.m` - 2D plot of a Gaussian distribution and a dataset
 
 
 ### How to run?

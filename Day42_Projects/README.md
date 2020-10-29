@@ -30,7 +30,7 @@ User-Defined Function files
 You can run project either in `octave` or `MATLAB`. 
 1. Clone repository using `git clone `
 2. `cd` to project directory and either run following command in `octave` or `MATLAB`
-2. `run('handwriting_recognition_3.m')` to run this project
+2. `run('cofi.m')` to run this project
 
 ### Where to find help?
 * If you do not have Octave installed, please refer to the installation instructions on the [Octave Download](https://www.gnu.org/software/octave/download.html) official site.

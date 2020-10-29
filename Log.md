@@ -408,7 +408,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   * Pandas 
   * CNN
   
-  ## Day 53: October 27, 2020
+  ## Day 53: October 29, 2020
   
-  
+  * Started to build a hand gesture recognition system using CNN
 

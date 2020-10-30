@@ -13,7 +13,6 @@ Implement an anomaly detection algorithm to detect anomalous behavior in server 
 
 User-Defined Function files
 
-
 * `data1` - First example Dataset for anomaly detection
 * `data2` - Second example Dataset for anomaly detection
 
@@ -24,7 +23,7 @@ User-Defined Function files
 You can run project either in `octave` or `MATLAB`. 
 1. Clone repository using `git clone `
 2. `cd` to project directory and either run following command in `octave` or `MATLAB`
-2. `run('cofi.m')` to run this project
+2. `run('.m')` to run this project
 
 ### Where to find help?
 * If you do not have Octave installed, please refer to the installation instructions on the [Octave Download](https://www.gnu.org/software/octave/download.html) official site.

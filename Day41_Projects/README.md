@@ -2,7 +2,6 @@
 
 ### Project Description
 Implement an anomaly detection algorithm to detect anomalous behavior in server computers.
-The first part of the script `cofi.m` will load the dataset `movies.mat`, providing the variables Y and R in your Octave/MATLAB environment.
 
 ### Visualizing the data and Model Representation
 
@@ -15,15 +14,11 @@ The first part of the script `cofi.m` will load the dataset `movies.mat`, provid
 User-Defined Function files
 
 
-1. `checkCostFunction.m` - Gradient checking for collaborative filtering
-1. `computeNumericalGradient.m` - Numerically compute gradients
-1. `fmincg.m` - Function minimization routine (similar to fminunc)
+* `data1` -
+* `data2` -
 
-1. `cofiCostFunc.m` - Implement the cost function for collaborative filtering
-1. `normalizeRatings.m` - Mean normalization for collaborative filtering
-1. `multivariateGaussian.m` - Computes the probability density function for a Gaussian distribution
-1. `visualizeFit.m` - 2D plot of a Gaussian distribution and a dataset
-
+1. `estimateGaussian.m` - Estimate the parameters of a Gaussian distribution with a diagonal covariance matrix
+1. `selectThreshold.m` - Find a threshold for anomaly detection
 
 ### How to run?
 You can run project either in `octave` or `MATLAB`. 

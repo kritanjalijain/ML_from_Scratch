@@ -413,4 +413,15 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   ## Day 53: October 29, 2020
   
   * Started to build a hand gesture recognition system using CNN
+  * Built a script for data collection of 8 hand gestures (100 images each) to use as weights for the model
+ 
+  ## Day 54: October 30, 2020
+  
+  * Explored OpenCv and its integration to CNN to build a dynamic (real-time) had gesture recognition system which will be used to load the music control music playing/pausing and adjusting the volume.
+  * Explored max pooling using Keras 
+  * Thresholding
+  * Background subtraction
+  * Gaussian blur- Smoothing images 
+  * Regularization using droupout
+  
 

@@ -10,18 +10,15 @@ The first part of the script `cofi.m` will load the dataset `movies.mat`, provid
 
 ### Project Structure 
 
-`handwriting_recognition_3.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
+`.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
 
 User-Defined Function files
 
-* `movies.mat` - movie review dataset
-* `movieParams.mat` - Parameters provided for debugging
-* `movie ids.txt` - List of movies
 
 1. `checkCostFunction.m` - Gradient checking for collaborative filtering
 1. `computeNumericalGradient.m` - Numerically compute gradients
 1. `fmincg.m` - Function minimization routine (similar to fminunc)
-1. `loadMovieList.m` - Loads the list of movies into a cell-array
+
 1. `cofiCostFunc.m` - Implement the cost function for collaborative filtering
 1. `normalizeRatings.m` - Mean normalization for collaborative filtering
 1. `multivariateGaussian.m` - Computes the probability density function for a Gaussian distribution

@@ -14,8 +14,8 @@ Implement an anomaly detection algorithm to detect anomalous behavior in server 
 User-Defined Function files
 
 
-* `data1` -
-* `data2` -
+* `data1` - First example Dataset for anomaly detection
+* `data2` - Second example Dataset for anomaly detection
 
 1. `estimateGaussian.m` - Estimate the parameters of a Gaussian distribution with a diagonal covariance matrix
 1. `selectThreshold.m` - Find a threshold for anomaly detection

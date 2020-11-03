@@ -250,9 +250,9 @@
 
 **Today's Progress** :  
    * SVM Application
-   
-**Thoughts** : 
- * 
+
+**Link of work:** [Day30_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day30_Projects)
+ 
 ## Day 31: October 3, 2020
 
 **Today's Progress** :  
@@ -330,6 +330,8 @@ The sample defines the model using the Keras Sequential API. The sample defines 
    * Problem formulation
    * Algorithm
 
+**Link of work:** [Day40_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day40_Projects)
+
 ## Day 41: October 13, 2020
 
  * Reconstruction of original high dimensional data from compressed representation
@@ -353,7 +355,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
      * Optimization algorithm
   * Collaborative Filtering
  
-**Thoughts** : 
+**Link of work:** [Day43_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day41_Projects)
 
 ## Day 44: October 16, 2020
 

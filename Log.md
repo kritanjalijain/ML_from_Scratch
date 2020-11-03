@@ -425,12 +425,9 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   * Regularization using droupout
   
   ## Day 55: October 31, 2020
+
+* 
   
-  * Explored OpenCv and its integration to CNN to build a dynamic (real-time) had gesture recognition system which will be used to load the music control music playing/pausing and adjusting the volume.
-  * Explored max pooling using Keras 
-  * Thresholding
-  * Background subtraction
-  * Gaussian blur- Smoothing images 
-  * Regularization using droupout
+  
   
 

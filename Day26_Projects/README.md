@@ -1,5 +1,7 @@
 ## Day 26- Bias and Variance
 
+### Project Description
+To determine optimal regularisation strengths using cross-validation
 
 ### How to run?
 You can run project either in `octave` or `MATLAB`. 

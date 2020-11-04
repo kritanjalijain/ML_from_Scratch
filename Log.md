@@ -345,7 +345,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
  * Multivariant gaussian distribution
  * Anomaly Detection system applications, algorithm
  
- **Link of work:** [Day42_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day41_Projects)
+ **Link of work:** [Day42_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day42_Projects)
  
 ## Day 43: October 15, 2020
 
@@ -355,7 +355,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
      * Optimization algorithm
   * Collaborative Filtering
  
-**Link of work:** [Day43_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day42_Projects)
+**Link of work:** [Day43_Projects](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day43_Projects)
 
 ## Day 44: October 16, 2020
 

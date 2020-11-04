@@ -1,4 +1,4 @@
-# Day 42 - Movie Recommendation System
+# Day 43 - Movie Recommendation System
 
 ### Project Description
 Build a recommender system for movies using collabrative filtering. Thus, by implementing the collaborative filtering learning algorithm, we have applied it to a dataset of movie ratings. This dataset consists of ratings on a scale of 1 to 5.

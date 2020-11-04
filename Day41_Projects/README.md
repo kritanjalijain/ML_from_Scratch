@@ -1,4 +1,4 @@
-# Day 41 - Anomaly Detection 
+# Day 42 - Anomaly Detection 
 
 ### Project Description
 Implement an anomaly detection algorithm to detect anomalous behavior in server computers.

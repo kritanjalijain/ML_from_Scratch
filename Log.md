@@ -428,7 +428,9 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   
   ## Day 55: October 31, 2020
 
-* 
+  ## Day 56: October 31, 2020
+
+
   
   
   

@@ -264,6 +264,7 @@
 ## Day 32: October 04, 2020
 
 **Today's Progress** :  
+
    * This lab will give you hands-on practice with TensorFlow 2.x model training, both locally and on AI Platform. After training, you will learn how to deploy your model to AI Platform for serving (prediction). You'll train your model to predict income category of a person using the United States Census Income Dataset.
 
 This lab gives you an introductory, end-to-end experience of training and prediction on AI Platform. The lab will use a census dataset to:
@@ -273,7 +274,7 @@ This lab gives you an introductory, end-to-end experience of training and predic
     Deploy a model to support prediction.
     Request an online prediction and see the response.
 
-What you will build
+
 
 The sample builds a classification model for predicting income category based on United States Census Income Dataset. The two income categories (also known as labels) are:
 

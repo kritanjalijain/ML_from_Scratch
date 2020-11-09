@@ -426,11 +426,11 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   * Regularization using droupout
   
   ## Day 55: October 31, 2020
+  
+  * Built a cat recognizer nn
 
   ## Day 56: October 31, 2020
 
 
-  
-  
   
 

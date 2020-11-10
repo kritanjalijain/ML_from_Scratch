@@ -1,6 +1,27 @@
 ## Day 30 Project - Builiding a spam email classifier using SVM
-In this model, I have used support vector machines (SVMs) to build a spam classifier.
 
+
+### Project Description
+In this model, I have used support vector machines (SVMs) to build a spam filter. Many email services today provide spam filters that are able to classify emails into spam and non-spam email with high accuracy. The classifier is trained to classify whether a given email, x, is spam (y = 1) or non-spam (y = 0).
+
+### Preprocessing Emails
+One method often employed in processing emails is to "normalize" the entities, so that all URLs are treated the same, all numbers are treated the same, etc. For example, we could replace each URL in the email with the unique string \httpaddr" to indicate that a URL was present.
+
+This has the effect of letting the spam classifier make a classification decision based on whether any URL was present, rather than whether a specific URL
+was present. This typically improves the performance of a spam classifier, since spammers often randomize the URLs, and thus the odds of seeing any particular URL again in a new piece of spam is very small.
+
+In `processEmail.m`, I have implemented the following email preprocessing and normalization steps:
+
+• Lower-casing: The entire email is converted into lower case, so that captialization is ignored (e.g., IndIcaTE is treated the same as Indicate).
+• Stripping HTML: All HTML tags are removed from the emails. Many emails often come with HTML formatting; we remove all the HTML tags, so that only the content remains.
+• Normalizing URLs: All URLs are replaced with the text \httpaddr".
+• Normalizing Email Addresses: All email addresses are replaced with the text \emailaddr".
+• Normalizing Numbers: All numbers are replaced with the text\number".
+• Normalizing Dollars: All dollar signs ($) are replaced with the text\dollar".
+• Word Stemming: Words are reduced to their stemmed form. For example, \discount", \discounts", \discounted" and \discounting" are all replaced with \discount". Sometimes, the Stemmer actually strips off additional characters from the end, so \include", \includes", \included", and \including" are all replaced with \includ".
+• Removal of non-words: Non-words and punctuation have been removed. All white spaces (tabs, newlines, spaces) have all been trimmed to a single space character.
+
+While pre-processing has left word fragments and non-words, this form turns out to be much easier to work with for performing feature extraction.
 
 ### Project Structure 
 

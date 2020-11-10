@@ -31,7 +31,8 @@ In `processEmail.m`, I have implemented the following email preprocessing and no
 While pre-processing has left word fragments and non-words, this form turns out to be much easier to work with for performing feature extraction.
 
 ### Vocabulary List
-
+After preprocessing the emails, a list of words for each email is formed. The next step is to choose which words to use in our classifier and which to leave out.
+Here, I have chosen only the most frequently occuring words as the set of words considered (the vocabulary list). Since words that occur rarely in the training set are only in a few emails, they might cause the model to overfit the training set. This vocabulary list was selected by choosing all words which occur at least a 100 times in the spam corpus, resulting in a list of 1899 words. Given the vocabulary list, now each word in the preprocessed email is mapped into a list of word indices that contains the index of the word in the vocabulary list.
 
 ### Project Structure 
 

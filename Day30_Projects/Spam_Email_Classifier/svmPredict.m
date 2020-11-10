@@ -1,10 +1,8 @@
 function pred = svmPredict(model, X)
-%SVMPREDICT returns a vector of predictions using a trained SVM model
-%(svmTrain). 
+%SVMPREDICT returns a vector of predictions using a trained SVM model (svmTrain). 
 
 
-% Check if we are getting a column vector, if so, then assume that we only
-% need to do prediction for a single example
+% Check 
 if (size(X, 2) == 1)
     % Examples should be in rows
     X = X';
@@ -16,12 +14,10 @@ p = zeros(m, 1);
 pred = zeros(m, 1);
 
 if strcmp(func2str(model.kernelFunction), 'linearKernel')
-    % We can use the weights and bias directly if working with the 
-    % linear kernel
+    
     p = X * model.w + model.b;
 elseif strfind(func2str(model.kernelFunction), 'gaussianKernel')
     % Vectorized RBF Kernel
-    % This is equivalent to computing the kernel on every pair of examples
     X1 = sum(X.^2, 2);
     X2 = sum(model.X.^2, 2)';
     K = bsxfun(@plus, X1, bsxfun(@plus, X2, - 2 * X * model.X'));

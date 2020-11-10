@@ -12,14 +12,14 @@ was present. This typically improves the performance of a spam classifier, since
 
 In `processEmail.m`, I have implemented the following email preprocessing and normalization steps:
 
-• Lower-casing: The entire email is converted into lower case, so that captialization is ignored (e.g., IndIcaTE is treated the same as Indicate).
-• Stripping HTML: All HTML tags are removed from the emails. Many emails often come with HTML formatting; we remove all the HTML tags, so that only the content remains.
-• Normalizing URLs: All URLs are replaced with the text \httpaddr".
-• Normalizing Email Addresses: All email addresses are replaced with the text \emailaddr".
-• Normalizing Numbers: All numbers are replaced with the text\number".
-• Normalizing Dollars: All dollar signs ($) are replaced with the text\dollar".
-• Word Stemming: Words are reduced to their stemmed form. For example, \discount", \discounts", \discounted" and \discounting" are all replaced with \discount". Sometimes, the Stemmer actually strips off additional characters from the end, so \include", \includes", \included", and \including" are all replaced with \includ".
-• Removal of non-words: Non-words and punctuation have been removed. All white spaces (tabs, newlines, spaces) have all been trimmed to a single space character.
+* Lower-casing: The entire email is converted into lower case, so that captialization is ignored (e.g., IndIcaTE is treated the same as Indicate).
+* Stripping HTML: All HTML tags are removed from the emails. Many emails often come with HTML formatting; we remove all the HTML tags, so that only the content remains.
+* Normalizing URLs: All URLs are replaced with the text \httpaddr".
+* Normalizing Email Addresses: All email addresses are replaced with the text \emailaddr".
+* Normalizing Numbers: All numbers are replaced with the text\number".
+* Normalizing Dollars: All dollar signs ($) are replaced with the text\dollar".
+* Word Stemming: Words are reduced to their stemmed form. For example, \discount", \discounts", \discounted" and \discounting" are all replaced with \discount". Sometimes, the Stemmer actually strips off additional characters from the end, so \include", \includes", \included", and \including" are all replaced with \includ".
+* Removal of non-words: Non-words and punctuation have been removed. All white spaces (tabs, newlines, spaces) have all been trimmed to a single space character.
 
 While pre-processing has left word fragments and non-words, this form turns out to be much easier to work with for performing feature extraction.
 

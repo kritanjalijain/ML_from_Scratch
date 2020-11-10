@@ -1,7 +1,6 @@
 function visualizeBoundary(X, y, model, varargin)
 %VISUALIZEBOUNDARY plots a non-linear decision boundary learned by the SVM
 
-% Plot the training data on top of the boundary
 plotData(X, y)
 
 % Make classification predictions over a grid of values

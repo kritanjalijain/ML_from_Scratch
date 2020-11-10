@@ -34,6 +34,13 @@ While pre-processing has left word fragments and non-words, this form turns out 
 After preprocessing the emails, a list of words for each email is formed. The next step is to choose which words to use in our classifier and which to leave out.
 Here, I have chosen only the most frequently occuring words as the set of words considered (the vocabulary list). Since words that occur rarely in the training set are only in a few emails, they might cause the model to overfit the training set. This vocabulary list was selected by choosing all words which occur at least a 100 times in the spam corpus, resulting in a list of 1899 words. Given the vocabulary list, now each word in the preprocessed email is mapped into a list of word indices that contains the index of the word in the vocabulary list.
 
+### Extracting Features from Emails
+The feature extraction is now implemented to convert each email into a vector in R^n.
+
+### Training SVM for Spam Classification
+After the feature extraction functions are done, the next step of `spam.m` will load a preprocessed training dataset that will be used to train a SVM classifier. `spamTrain.mat` contains 4000 training examples of spam and non-spam email, while spamTest.mat contains 1000 test examples. Each original email was processed using the `processEmail` and `emailFeatures` functions and converted into a vector x(i) belongs to R^1899.
+After loading the dataset, `spam.m` will train a SVM to classify between spam (y = 1) and non-spam (y = 0) emails.
+
 ### Project Structure 
 
 `spam_classifier.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.

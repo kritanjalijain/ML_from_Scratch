@@ -1,4 +1,6 @@
 ## Day 30 Project - Builiding a spam email classifier using SVM
+In this model, I have used support vector machines (SVMs) to build a spam classifier.
+
 
 ### Project Structure 
 

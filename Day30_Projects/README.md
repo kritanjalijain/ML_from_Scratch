@@ -39,7 +39,10 @@ The feature extraction is now implemented to convert each email into a vector in
 
 ### Training SVM for Spam Classification
 After the feature extraction functions are done, the next step of `spam.m` will load a preprocessed training dataset that will be used to train a SVM classifier. `spamTrain.mat` contains 4000 training examples of spam and non-spam email, while spamTest.mat contains 1000 test examples. Each original email was processed using the `processEmail` and `emailFeatures` functions and converted into a vector x(i) belongs to R^1899.
+
+
 After loading the dataset, `spam.m` will train a SVM to classify between spam (y = 1) and non-spam (y = 0) emails.
+
 
 ### Project Structure 
 

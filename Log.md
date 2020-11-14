@@ -429,7 +429,7 @@ The sample defines the model using the Keras Sequential API. The sample defines 
   
   * Built a cat recognizer nn
 
-  ## Day 57: November 12, 2020
+  ## Day 57: November 15, 2020
 
 
   

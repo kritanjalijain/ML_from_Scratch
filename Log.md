@@ -433,6 +433,6 @@ The sample defines the model using the Keras Sequential API. The sample defines 
 
 * Morphological Transformations for background subtraction 
 
-   ## Day 57: November 24, 2020
+   ## Day 57: December 28, 2020
    
 

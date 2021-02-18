@@ -1,4 +1,4 @@
-# Day 16 - Mutli-classifictation Logistic Regression Project 1 (Handwriting Recognition)
+# Day 16 - Multi-classifictation Logistic Regression Project 1 (Handwriting Recognition)
 
 ### Project Description
 Implement one-vs-all logistic to recognize hand-written digits.

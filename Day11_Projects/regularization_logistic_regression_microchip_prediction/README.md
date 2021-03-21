@@ -25,7 +25,7 @@ While the feature mapping allows us to build a more expressive classifier, it al
 Now you will implement code to compute the cost function and gradient for regularized logistic regression. `costFunctionReg.m` returns the cost and gradient which are then called in `microchip_prediction.m` to compute them.
 
 #### Learning parameters using `fminunc`
-After computing the cost and gradient for regularized logistic regression, `fminunc` is used to learn the optimal parameters theta.
+After computing the cost and gradient for regularized logistic regression, `fminunc` is used to learn the optimal parameters (&theta;).
 
 ### Plotting the decision boundary
 To visualize the model learned by this classifier, the function `plotDecisionBoundary.m` is used which plots the (non-linear) decision boundary that separates the positive and negative examples. In `plotDecisionBoundary.m`, the non-linear decision boundary is plotted by computing the classifier's predictions on an evenly spaced grid and then and a contour plot of where the predictions change from y = 0 to y = 1 is drawn.
@@ -33,29 +33,29 @@ To visualize the model learned by this classifier, the function `plotDecisionBou
 ### Understanding Overfitting
 Next, different regularization parameters are tried to understand how regularization prevents overfitting.
 
-* Case 1: With a very small lambda, the classifier gets almost every training example correct, but draws a very complicated boundary, thus overfitting the data.
+* Case 1: With a very small &lambda;, the classifier gets almost every training example correct, but draws a very complicated boundary, thus overfitting the data.
 
 ##### Figure 2- Scatter Plot of Overfitting case
 
 ![](results/Scatter_Plot_7.png)
 
-* Case 2: With a very large lambda, the decision boundary will not follow the data so well, thus underfitting the data
+* Case 2: With a very large &lambda;, the decision boundary will not follow the data so well, thus underfitting the data
 
 ##### Figure 3- Scatter Plot of Underfitting case
 
 ![](results/Scatter_plot_4.png)
 
 
-Trying out other cases for lambda 
+Trying out other cases for &lambda; 
 
-##### Figure 4- Scatter Plot of labmda =10 case
+##### Figure 4- Scatter Plot of &lambda; = 10 case
 
 ![](results/Scatter_Plot_5.png)
 
 
-* Optimal Case- With a lambda between 0 to 10, you should see a plot that shows an simpler decision boundary which still separates the positives and negatives fairly well.
+* Optimal Case- With a &lambda; between 0 to 10, you should see a plot that shows an simpler decision boundary which still separates the positives and negatives fairly well.
 
-##### Figure 5- Scatter Plot of labmda =1 case
+##### Figure 5- Scatter Plot of &lambda; = 1 case
 
 ![](results/Scatter_plot_6.png)
 

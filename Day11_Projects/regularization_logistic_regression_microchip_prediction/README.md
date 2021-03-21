@@ -1,7 +1,7 @@
 # Day 11 - Regularized Logistic Regression Project 2
 
 ### Project Description
-In this project, I implemented regularized logistic regression to predict whether microchips from a fabrication plant passes quality assurance (QA) based on the test results for some microchips on two different tests. From these two tests, we would like to determine whether the microchips should be accepted or rejected.
+In this project, I implemented regularized logistic regression to predict whether microchips from a fabrication plant passes quality assurance (QA) based on the test results for some microchips on two different tests. From these tests, we would like to determine whether the microchips should be accepted or rejected.
 
 The file `microchipdata.txt` contains historical data from previous applicants. The first column is the exam 1 score, the second column is the score of exam 2 and the third column is the the admissions decision. Zero indicates not admitted while one indicates admitted students.
 

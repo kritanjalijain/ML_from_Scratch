@@ -16,6 +16,25 @@ Figure 1 shows that the dataset cannot be separated into positive and negative e
 
 ### Feature Mapping
 One way to fit the data better is to create more features from each data point. In the provided `functionmapFeature.m`, I mapped the features into all polynomial terms of x1 and x2 up to the sixth power.
-A logistic regression classifier trained on this higher-dimension feature vector will have a more complex decision boundary and will appear nonlinear when drawn in our 2-dimensional plot.
+This is because a logistic regression classifier trained on this higher-dimension feature vector will have a more complex decision boundary and will appear nonlinear when drawn in our 2-dimensional plot.
+As a result of this mapping, our vector of two features (the scores on two QA tests) has been transformed into a 28-dimensional vector. A logistic
+regression classifier trained on this higher-dimension feature vector will have a more complex decision boundary and will appear nonlinear when drawn in our 2-dimensional plot.
+While the feature mapping allows us to build a more expressive classifier, it also more susceptible to overfitting.
  
 ### Cost function and gradient
+Now you will implement code to compute the cost function and gradient for regularized logistic regression. `costFunctionReg.m` returns the cost and gradient which are then called in `microchip_prediction.m` to compute them.
+
+#### Learning parameters using `fminunc`
+After computing the cost and gradient for regularized logistic regression, `fminunc` is used to learn the optimal parameters theta.
+
+### Plotting the decision boundary
+To visualize the model learned by this classifier, the function `plotDecisionBoundary.m` is used which plots the (non-linear) decision boundary that separates the positive and negative examples. In `plotDecisionBoundary.m`, the non-linear decision boundary is plotted by computing the classifier's predictions on an evenly spaced grid and then and a contour plot of where the predictions change from y = 0 to y = 1 is drawn.
+
+### Understanding Overfitting
+Next, different regularization parameters are tried to to understand how regularization prevents overfitting.
+
+* Case 1: With a small lambda, the classifier gets almost every training example correct, but draws a very complicated boundary, thus overfitting the data.
+
+##### Figure 2- Scatter Plot of Overfitting case
+
+![](results/Scatter_Plot_7.png)

@@ -2,15 +2,16 @@
 
 This folder contains three project part of [MATLAB Onramp course by MathWorks](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted) to get started with MATLAB.
 
-1. Electricity Usage and Prices | [MathWorks Course Link](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted#chapter=10&lesson=2&section=1)
+1. [Electricity Usage and Prices](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day3_Projects/electricity_usage_prices) 
+ | [MathWorks Course Link](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted#chapter=10&lesson=2&section=1)
 
 This project plot and compare, electricity usage and prices for various economic sectors. 
 
-2. Audio Frequency | [MathWorks Course Link](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted#chapter=10&lesson=2&section=1)
+2. [Audio Frequency](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day3_Projects/audio_frequency) | [MathWorks Course Link](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted#chapter=10&lesson=2&section=1)
 
 This project plot a signal that contains beat phenomenon and then analyze the signal's frequency content.
 
-3. Stellar Motion | [MathWorks Course Link](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted#chapter=14&lesson=1&section=1)
+3. [Stellar Motion](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day3_Projects/stellar_motion) | [MathWorks Course Link](https://matlabacademy.mathworks.com/R2018b/portal.html?course=gettingstarted#chapter=14&lesson=1&section=1)
 
 This project finds the determine how fast the star is moving away from earth by using the wavelength characteristic spectrum of star.
 

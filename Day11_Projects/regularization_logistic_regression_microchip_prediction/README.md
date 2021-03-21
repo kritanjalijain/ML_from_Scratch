@@ -3,7 +3,7 @@
 ### Project Description
 In this project, I implemented regularized logistic regression to predict whether microchips from a fabrication plant passes quality assurance (QA) based on the test results for some microchips on two different tests. From these tests, we would like to determine whether the microchips should be accepted or rejected.
 
-The file `microchipdata.txt` contains historical data from previous applicants. The first column is the exam 1 score, the second column is the score of exam 2 and the third column is the the admissions decision. Zero indicates not admitted while one indicates admitted students.
+The file ![microchipdata.txt](microchipdata.txt) contains historical data from previous applicants. The first column is the exam 1 score, the second column is the score of exam 2 and the third column is the the admissions decision. Zero indicates not admitted while one indicates admitted students.
 
 ### Plotting the Data
 Before starting to implement any learning algorithm, it is often useful to understand the data by visualizing it. For this dataset, I have used a scatter plot to visualize the data. In `microchip_prediction.m`, the dataset is loaded from the data file `microchipdata.txt` and then the script calls the `plotData` function to create a scatter plot of the data.

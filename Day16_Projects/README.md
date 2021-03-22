@@ -5,6 +5,13 @@ Implement one-vs-all logistic to recognize hand-written digits.
 
 The file `data1.mat` contains the dataset for the above logisitc regression problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits where each training example is a 20 pixel by 20 pixel grayscale image of the digit. Each pixel is represented by a floating point number indicating the grayscale intensity at that location. This gives us a 5000 by 400 matrix X where every row is a training example for a handwritten digit image.
 
+### Visualizing the data and Model Representation
+Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, load and display the data on a 2-dimensional plot by calling the function `displayData`
+
+![](handwritten_digit_recognition_backpropagation/results/V1.png)
+
+###### Figure 1- Display 100 examples from the dataset
+
 ### Project Structure 
 
 `handwriting_number_recognition_1.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.

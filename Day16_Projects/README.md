@@ -12,6 +12,10 @@ Before starting on any task, it is often useful to understand the data by visual
 
 ###### Figure 1- Display 100 examples from the dataset
 
+### Vectorizing Logistic Regression
+
+
+
 ### Project Structure 
 
 `handwriting_number_recognition_1.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.

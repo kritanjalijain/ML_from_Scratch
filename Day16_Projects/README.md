@@ -8,7 +8,7 @@ The file `data1.mat` contains the dataset for the above logisitc regression prob
 ### Visualizing the data and Model Representation
 Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, load and display the data on a 2-dimensional plot by calling the function `displayData`
 
-![](/results/V1.png)
+![](Handwriting_recognition_Vectorized_Logistic_Regression/results/V1.png)
 
 ###### Figure 1- Display 100 examples from the dataset
 

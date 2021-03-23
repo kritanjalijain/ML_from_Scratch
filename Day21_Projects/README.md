@@ -4,7 +4,7 @@
 Implementing backpropagation algorithm to learn the parameters for the neural network to recognize hand-written digits.
 
 The file `data1.mat` contains the dataset for the above neural network problem. The dataset is a subset of the [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/) that contains 5000 training examples of handwritten digits.
-The `weights.mat` contsains the parameters of the neural network.
+The `weights.mat` contains the parameters of the neural network.
 
 ### Visualizing the data and Model Representation
 Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, load and display the data on a 2-dimensional plot by calling the function `displayData`.

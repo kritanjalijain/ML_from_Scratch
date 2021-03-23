@@ -35,6 +35,7 @@ The training accuracy is about 97.5%.
 User-Defined Function files
 1. `displayData.m` - Function to help visualize the dataset
 1. `predict.m` - Neural Network Prediction Function
+1. `sigmoid.m` - Sigmoid function
 
 ### How to run?
 You can run project either in `octave` or `MATLAB`. 

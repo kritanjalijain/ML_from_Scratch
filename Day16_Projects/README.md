@@ -13,8 +13,18 @@ Before starting on any task, it is often useful to understand the data by visual
 ###### Figure 1- Display 100 examples from the dataset
 
 ### Vectorizing Logistic Regression
+First vectorize the cost function J(&theta;) followed by vectorizing the gradient and lastly add regularization to the cost function.
 
+### One-vs-all Classification
+Implement one-vs-all classification by training multiple regularized logistic regression classifiers, one for each of the K classes in the dataset. ` oneVsAll.m` trains one classifier for each class, it returns all the classifier parameters in a matrix &Theta; &#8714;	R<sup> K x (N+1) </sup>, where each row of &Theta; corresponds to the learned
+logistic regression parameters for one class.
 
+#### One-vs-all Prediction
+After training the one-vs-all classifier, use it to predict the digit contained in a given image. For each input, compute the probability of it belonging to each class using the trained logistic regression classifiers. The one-vs-all prediction function will pick the class for which the corresponding logistic regression classifier outputs the highest probability and return the class label (1, 2,..., or K) as the prediction for the input example.
+`handwriting_number_recognition_1.m` will call predictOneVsAll function in `predictOneVsAll.m` to make predictions using the learned value of &Theta; .
+
+### Results
+The training set accuracy is about 94.9% (i.e., it classifies 94.9% of the examples in the training set correctly).
 
 ### Project Structure 
 

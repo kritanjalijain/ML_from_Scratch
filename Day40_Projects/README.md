@@ -1,10 +1,9 @@
 ## Day 40 Project - Image Compression using k-means algorithm, clustering, pca
 
 ### Project Structure 
-
-`spam_classifier.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
-ex7.m - Octave/MATLAB script for the rst exercise on K-means
-ex7 pca.m - Octave/MATLAB script for the second exercise on PCA
+ `pca.m`  - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
+`.m` - Octave/MATLAB script for the rst exercise on K-means
+`pca.m` - Octave/MATLAB script for the second exercise on PCA
 
 * data1.mat - Example Dataset for PCA
 * data2.mat - Example Dataset for K-means
@@ -26,7 +25,7 @@ ex7 pca.m - Octave/MATLAB script for the second exercise on PCA
 You can run project either in `octave` or `MATLAB`. 
 1. Clone repository using `git clone `
 2. `cd` to project directory and either run following command in `octave` or `MATLAB`
-2. `run('spam_classifier.m')` to run this project
+2. `run('pca.m')` to run this project
 
 ### Where to find help?
 * If you do not have Octave installed, please refer to the installation instructions on the [Octave Download](https://www.gnu.org/software/octave/download.html) official site.

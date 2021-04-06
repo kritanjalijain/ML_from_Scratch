@@ -35,11 +35,31 @@ After finding the top K = 16 colors to represent the image, each pixel position 
 
 ###### Figure 2: Original and reconstructed image (when using K-means to compress the image).
 
+Finally, the effects of the compression can be viewed by reconstructing the image based only on the centroid assignments. Specifically, you can replace each pixel location with the mean of the centroid assigned to it. Figure 2 shows the reconstruction we obtained. Even though the resulting image retains most of the characteristics of the original, we also see some compression artifacts.
+
+### Varying K to see the effects on the compression
+
+Below figure shows the effect of image compression after compressing the image to having only 5 colors.
+
+![](results/compressed_5colors.png)
+
+###### Figure 3: Reconstructed image for K = 5 .
+
+Below figure shows the effect of image compression after compressing the image to having only 3 colors.
+
+![](results/compressed_3colors.png)
+
+###### Figure 4: Reconstructed image for K = 3 .
+
+Below figure shows the effect of image compression after compressing the image to having only 4 colors in comparison to the original image 253235 colors.
+
+![](results/finalgirl.png)
+
+###### Figure 5: Graphic Representation and Comparsion of Original vs Reconstructed image for K = 4 .
+
 ### Project Structure 
 
- `main_pca.m`  - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
- 
-`Main_imagecompression.m` - Octave/MATLAB script for the first part on K-means
+ `main_imagecompression.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions for the image compression using K-means
 
 `main_pca.m` - Octave/MATLAB script for the second part on PCA
 
@@ -63,7 +83,7 @@ After finding the top K = 16 colors to represent the image, each pixel position 
 You can run project either in `octave` or `MATLAB`. 
 1. Clone repository using `git clone `
 2. `cd` to project directory and either run following command in `octave` or `MATLAB`
-2. `run('main_pca.m')` to run this project
+2. `run('main_imagecompression.m')` to run this project
 
 ### Where to find help?
 * If you do not have Octave installed, please refer to the installation instructions on the [Octave Download](https://www.gnu.org/software/octave/download.html) official site.

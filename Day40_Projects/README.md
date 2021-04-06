@@ -1,9 +1,14 @@
 ## Day 40 Project - Image Compression using k-means algorithm, clustering, pca
 
+### Project Description
+Implement the K-means clustering algorithm and apply it to compress an image.
+
+In the second part, you will use principal component analysis to find a low-dimensional representation of face images.
+
 ### Project Structure 
  `pca.m`  - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
-`.m` - Octave/MATLAB script for the rst exercise on K-means
-`pca.m` - Octave/MATLAB script for the second exercise on PCA
+`.m` - Octave/MATLAB script for the first part on K-means
+`pca.m` - Octave/MATLAB script for the second part on PCA
 
 * data1.mat - Example Dataset for PCA
 * data2.mat - Example Dataset for K-means

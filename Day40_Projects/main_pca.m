@@ -9,7 +9,7 @@
 %% Initialization
 clear ; close all; clc
 
-%% ================== Part 1: Load Example Dataset  ===================
+%% ================== Load Example Dataset  ===================
 
 fprintf('Visualizing example dataset for PCA.\n\n');
 
@@ -23,7 +23,7 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 
-%% =============== Part 2: Principal Component Analysis ===============
+%% =============== Principal Component Analysis ===============
 fprintf('\nRunning PCA on example dataset.\n\n');
 
 %  Before running PCA, it is important to first normalize X
@@ -48,7 +48,7 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 
-%% =================== Part 3: Dimension Reduction ===================
+%% =================== Dimension Reduction ===================
 fprintf('\nDimension reduction on example dataset.\n\n');
 
 %  Plot the normalized dataset (returned from pca)
@@ -74,7 +74,7 @@ hold off
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
-%% =============== Part 4: Loading and Visualizing Face Data =============
+%% =============== Loading and Visualizing Face Data =============
 fprintf('\nLoading face dataset.\n\n');
 
 %  Load Face dataset
@@ -86,7 +86,7 @@ displayData(X(1:100, :));
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
-%% =========== Part 5: PCA on Face Data: Eigenfaces  ===================
+%% =========== PCA on Face Data: Eigenfaces  ===================
 fprintf(['\nRunning PCA on face dataset.\n' ...
          '(this might take a minute or two ...)\n\n']);
 
@@ -104,7 +104,7 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 
-%% ============= Part 6: Dimension Reduction for Faces =================
+%% ============= Dimension Reduction for Faces =================
 fprintf('\nDimension reduction for face dataset.\n\n');
 
 K = 100;
@@ -116,7 +116,7 @@ fprintf('%d ', size(Z));
 fprintf('\n\nProgram paused. Press enter to continue.\n');
 pause;
 
-%% ==== Part 7: Visualization of Faces after PCA Dimension Reduction ====
+%% ==== Visualization of Faces after PCA Dimension Reduction ====
 fprintf('\nVisualizing the projected (reduced dimension) faces.\n\n');
 
 K = 100;
@@ -138,19 +138,13 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 
-%% === Part 8(a): Optional (ungraded) Exercise: PCA for Visualization ===
-%  One useful application of PCA is to use it to visualize high-dimensional
-%  data. In the last K-Means exercise you ran K-Means on 3-dimensional 
-%  pixel colors of an image. We first visualize this output in 3D, and then
-%  apply PCA to obtain a visualization in 2D.
+%  visualize this output in 3D
 
 close all; close all; clc
 
-% Reload the image from the previous exercise and run K-Means on it
-% For this to work, you need to complete the K-Means assignment first
+% Reload the image and run K-Means on it
 A = double(imread('bird_small.png'));
 
-% If imread does not work for you, you can try instead
 %   load ('bird_small.mat');
 
 A = A / 255;
@@ -161,8 +155,6 @@ max_iters = 10;
 initial_centroids = kMeansInitCentroids(X, K);
 [centroids, idx] = runkMeans(X, initial_centroids, max_iters);
 
-%  Sample 1000 random indexes (since working with all the data is
-%  too expensive. If you have a fast computer, you may increase this.
 sel = floor(rand(1000, 1) * size(X, 1)) + 1;
 
 %  Setup Color Palette
@@ -176,7 +168,6 @@ title('Pixel dataset plotted in 3D. Color shows centroid memberships');
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
-%% === Part 8(b): Optional (ungraded) Exercise: PCA for Visualization ===
 % Use PCA to project this cloud to 2D for visualization
 
 % Subtract the mean to use PCA

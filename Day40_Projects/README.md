@@ -6,9 +6,9 @@ Implement the K-means clustering algorithm and apply it to compress an image.
 In the second part, you will use principal component analysis to find a low-dimensional representation of face images.
 
 ### Project Structure 
- `pca.m`  - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
-`.m` - Octave/MATLAB script for the first part on K-means
-`pca.m` - Octave/MATLAB script for the second part on PCA
+ `main_pca.m`  - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
+`Main_imagecompression.m` - Octave/MATLAB script for the first part on K-means
+`main_pca.m` - Octave/MATLAB script for the second part on PCA
 
 * data1.mat - Example Dataset for PCA
 * data2.mat - Example Dataset for K-means
@@ -30,7 +30,7 @@ In the second part, you will use principal component analysis to find a low-dime
 You can run project either in `octave` or `MATLAB`. 
 1. Clone repository using `git clone `
 2. `cd` to project directory and either run following command in `octave` or `MATLAB`
-2. `run('pca.m')` to run this project
+2. `run('main_pca.m')` to run this project
 
 ### Where to find help?
 * If you do not have Octave installed, please refer to the installation instructions on the [Octave Download](https://www.gnu.org/software/octave/download.html) official site.

@@ -19,8 +19,9 @@ Given assignments of every point to a centroid, the second phase of the algorith
 In a straightforward 24-bit color representation of an image (Figure 1) each pixel is represented as three 8-bit unsigned integers (ranging from 0 to 255) that specify the red, green and blue intensity values. This encoding is often refered to as the RGB encoding. The image contains thousands of colors, the task is to reduce the number of colors to 16 colors.
 By making this reduction, it is possible to represent (compress) the photo in an efficient way. Specifically, you only need to store the RGB values of the 16 selected colors, and for each pixel in the image you now need to only store the index of the color at that location (where only 4 bits are necessary to represent 16 possibilities).
 
-
-![](results/girl.png)
+<img src="results/girl.png"
+     alt="original image"
+     height="350" width="350" />
 
 ###### Figure 1- The original 128x128 image.
 
@@ -33,9 +34,9 @@ After finding the top K = 16 colors to represent the image, each pixel position 
 
 <img src="results/compressed_16colors.png"
      alt="compressed 16colors image"
-     style="float: left; margin-right: 10px;
-     height: 200px; width: 200px" />
+     height="450" width="700" />
 
+ 
 ###### Figure 2: Original and reconstructed image (when using K-means to compress the image).
 
 Finally, the effects of the compression can be viewed by reconstructing the image based only on the centroid assignments. Specifically, you can replace each pixel location with the mean of the centroid assigned to it. Figure 2 shows the reconstruction we obtained. Even though the resulting image retains most of the characteristics of the original, we also see some compression artifacts.

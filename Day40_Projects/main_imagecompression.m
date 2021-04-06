@@ -1,14 +1,5 @@
-%     pca.m
-%     projectData.m
-%     recoverData.m
-%     computeCentroids.m
-%     findClosestCentroids.m
-%     kMeansInitCentroids.m
-
 %% Initialization
 clear ; close all; clc
-
-
 
 %% ============= K-Means Clustering on Pixels ===============
 

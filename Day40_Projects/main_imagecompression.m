@@ -8,64 +8,14 @@
 %% Initialization
 clear ; close all; clc
 
-%% ================= Part 1: Find Closest Centroids ====================
-
-fprintf('Finding closest centroids.\n\n');
-
-load('data2.mat');
-
-% Select an initial set of centroids
-K = 3; 
-initial_centroids = [3 3; 6 2; 8 5];
-
-idx = findClosestCentroids(X, initial_centroids);
-
-fprintf('Closest centroids for the first 3 examples: \n')
-fprintf(' %d', idx(1:3));
-fprintf('\n(the closest centroids should be 1, 3, 2 respectively)\n');
-
-fprintf('Program paused. Press enter to continue.\n');
-pause;
-
-%% ===================== Part 2: Compute Means =========================
-
-fprintf('\nComputing centroids means.\n\n');
-
-centroids = computeCentroids(X, idx, K);
-
-fprintf('Centroids computed after initial finding of closest centroids: \n')
-fprintf(' %f %f \n' , centroids');
 
 
-fprintf('Program paused. Press enter to continue.\n');
-pause;
-
-
-%% =================== Part 3: K-Means Clustering ======================
-
-fprintf('\nRunning K-Means clustering on example dataset.\n\n');
-
-load('data2.mat');
-
-% Settings for running K-Means
-K = 3;
-max_iters = 10;
-
-initial_centroids = [3 3; 6 2; 8 5];
-
-% Run K-Means algorithm. 
-[centroids, idx] = runkMeans(X, initial_centroids, max_iters, true);
-fprintf('\nK-Means Done.\n\n');
-
-fprintf('Program paused. Press enter to continue.\n');
-pause;
-
-%% ============= Part 4: K-Means Clustering on Pixels ===============
+%% ============= K-Means Clustering on Pixels ===============
 
 fprintf('\nRunning K-Means clustering on pixels from an image.\n\n');
 
-%  Load an image of a bird
-A = double(imread('bird_small.png'));
+%  Load an image of a painting of a girl
+A = double(imread('girl.png'));
 
 %   load ('bird_small.mat');
 
@@ -90,7 +40,7 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 
-%% ================= Part 5: Image Compression ======================
+%% ================= Image Compression ======================
 fprintf('\nApplying K-Means to compress an image.\n\n');
 
 % Find closest cluster members

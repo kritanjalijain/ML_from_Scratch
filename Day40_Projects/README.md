@@ -31,7 +31,10 @@ the image are computed, the 16 colors are used to replace the pixels in the orig
 The `main_imagecompression.m` script first loads the image, and then reshapes it to create an mx3 matrix of pixel colors (where m = 16384 = 128 x 128), and calls the K-means function on it.
 After finding the top K = 16 colors to represent the image, each pixel position is assigned to its closest centroid using the `findClosestCentroids` function. This represents the original image using the centroid assignments of each pixel.
 
-![](results/compressed_16colors.png)
+<img src="results/compressed_16colors.png"
+     alt="compressed 16colors image"
+     style="float: left; margin-right: 10px;
+     height: 200px; width: 200px" />
 
 ###### Figure 2: Original and reconstructed image (when using K-means to compress the image).
 

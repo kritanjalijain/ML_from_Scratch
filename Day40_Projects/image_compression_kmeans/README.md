@@ -19,7 +19,7 @@ Given assignments of every point to a centroid, the second phase of the algorith
 In a straightforward 24-bit color representation of an image (Figure 1) each pixel is represented as three 8-bit unsigned integers (ranging from 0 to 255) that specify the red, green and blue intensity values. This encoding is often refered to as the RGB encoding. The image contains thousands of colors, the task is to reduce the number of colors to 16 colors.
 By making this reduction, it is possible to represent (compress) the photo in an efficient way. Specifically, you only need to store the RGB values of the 16 selected colors, and for each pixel in the image you now need to only store the index of the color at that location (where only 4 bits are necessary to represent 16 possibilities).
 
-<img src="results/girl.png"
+<img src="girl.png"
      alt="original image"
      height="350" width="350" />
 
@@ -34,12 +34,33 @@ After finding the top K = 16 colors to represent the image, each pixel position 
 
 <img src="results/compressed_16colors.png"
      alt="compressed 16colors image"
-     height="450" width="700" />
+     height="450" width="750" />
 
- 
+
 ###### Figure 2: Original and reconstructed image (when using K-means to compress the image).
 
 Finally, the effects of the compression can be viewed by reconstructing the image based only on the centroid assignments. Specifically, you can replace each pixel location with the mean of the centroid assigned to it. Figure 2 shows the reconstruction we obtained. Even though the resulting image retains most of the characteristics of the original, we also see some compression artifacts.
+
+
+### PCA for visualization
+
+Next, the final pixel assignments in this 3D space are visualized using the `scatter3` function. Each data point is colored according to the cluster it has been assigned to.
+
+<img src="results/3dview_16colors.png"
+     alt="compressed 16colors image"
+     height="450" width="600" />
+
+###### Figure 3: Compressed 16 colors data in 3D 
+
+It turns out that visualizing datasets in 3 dimensions or greater can be cumbersome. Therefore, it is often desirable to only display the data in 2D even at the cost of losing some information. In practice, PCA is often used to reduce the dimensionality of data for visualization purposes.
+
+Thus lastly, implementation of PCA is done to the 3-dimensional data to reduce it to 2 dimensions and visualize the result in a 2D scatter plot. The PCA projection can be thought of as a rotation that selects the view that maximizes the spread of the data, which often corresponds to the "best" view.
+
+<img src="results/2dview_16colors.png"
+     alt="compressed 16colors image"
+     height="450" width="600" />
+
+###### Figure 4: 2D visualization produced using PCA
 
 ### Varying K to see the effects on the compression
 
@@ -47,38 +68,62 @@ Below figure shows the effect of image compression after compressing the image t
 
 ![](results/compressed_5colors.png)
 
-###### Figure 3: Reconstructed image for K = 5 .
+###### Figure 5: Reconstructed image for K = 5 .
+
+
+<img src="results/3dview1_5colors.png"
+     alt="compressed 16colors image"
+     height="450" width="600" />
+
+###### Figure 6: Compressed 5 colors data in 3D 
+
+<img src="results/2dview_5colors.png"
+     alt="compressed 16colors image"
+     height="450" width="600" />
+
+###### Figure 7: 2D visualization produced using PCA
+
 
 Below figure shows the effect of image compression after compressing the image to having only 3 colors.
 
 ![](results/compressed_3colors.png)
 
-###### Figure 4: Reconstructed image for K = 3 .
+###### Figure 8: Reconstructed image for K = 3 .
+
+
+<img src="results/3dview1_3colors.png"
+     alt="compressed 16colors image"
+     height="450" width="600" />
+
+###### Figure 9: Compressed 3 colors data in 3D 
+
+
+<img src="results/2dview_3colors.png"
+     alt="compressed 16colors image"
+     height="450" width="600" />
+
+###### Figure 10: 2D visualization produced using PCA
 
 Below figure shows the effect of image compression after compressing the image to having only 4 colors in comparison to the original image 253235 colors.
 
 ![](results/finalgirl.png)
 
-###### Figure 5: Graphic Representation and Comparsion of Original vs Reconstructed image for K = 4 .
+###### Figure 11: Graphic Representation and Comparsion of Original vs Reconstructed image for K = 4 .
+
+
 
 ### Project Structure 
 
  `main_imagecompression.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions for the image compression using K-means
 
-`main_pca.m` - Octave/MATLAB script for the second part on PCA
-
-* data1.mat - Example Dataset for PCA
 * data2.mat - Example Dataset for K-means
-* faces.mat - Faces Dataset
 * girl.png - Example Image
 * displayData.m - Displays 2D data stored in a matrix
-* drawLine.m - Draws a line over an exsiting figure
 * plotDataPoints.m - Initialization for K-means centroids
 * plotProgresskMeans.m - Plots each step of K-means as it proceeds
 * runkMeans.m - Runs the K-means algorithm
 * pca.m - Perform principal component analysis
 * projectData.m - Projects a data set into a lower dimensional space
-* recoverData.m - Recovers the original data from the projection
 * findClosestCentroids.m - Find closest centroids (used in K-means)
 * computeCentroids.m - Compute centroid means (used in K-means)
 * kMeansInitCentroids.m - Initialization for K-means centroids

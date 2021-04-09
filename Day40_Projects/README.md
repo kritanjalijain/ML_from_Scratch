@@ -1,4 +1,4 @@
-## Day 40 Project - Image Compression using k-means algorithm, clustering, pca
+## Day 40 Project - K-means algorithm, clustering, PCA
 
 ### Project Description
 Implement the K-means clustering algorithm and apply it to compress an image. The K-means algorithm is used for image compression by reducing the number of colors that occur in an image to only those that are most common in that image.

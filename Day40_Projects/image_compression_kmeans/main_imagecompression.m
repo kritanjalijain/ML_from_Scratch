@@ -8,8 +8,6 @@ fprintf('\nRunning K-Means clustering on pixels from an image.\n\n');
 %  Load an image of a painting of a girl
 A = double(imread('girl.png'));
 
-%   load ('bird_small.mat');
-
 A = A / 255; % Divide by 255 so that all values are in the range 0 - 1
 
 % Size of the image
@@ -61,3 +59,34 @@ title(sprintf('Compressed, with %d colors.', K));
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
+%  visualize this output in 3D
+
+
+sel = floor(rand(1000, 1) * size(X, 1)) + 1;
+
+%  Setup Color Palette
+palette = hsv(K);
+colors = palette(idx(sel), :);
+
+%  Visualize the data and centroid memberships in 3D
+figure;
+scatter3(X(sel, 1), X(sel, 2), X(sel, 3), 10, colors);
+title('Pixel dataset plotted in 3D. Color shows centroid memberships');
+fprintf('Program paused. Press enter to continue.\n');
+pause;
+
+% Use PCA to project this cloud to 2D for visualization
+
+% Subtract the mean to use PCA
+[X_norm, mu, sigma] = featureNormalize(X);
+
+% PCA and project the data to 2D
+[U, S] = pca(X_norm);
+Z = projectData(X_norm, U, 2);
+
+% Plot in 2D
+figure;
+plotDataPoints(Z(sel, :), idx(sel), K);
+title('Pixel dataset plotted in 2D, using PCA for dimensionality reduction');
+fprintf('Program paused. Press enter to continue.\n');
+pause;

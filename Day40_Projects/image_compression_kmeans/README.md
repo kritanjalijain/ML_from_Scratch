@@ -23,7 +23,7 @@ By making this reduction, it is possible to represent (compress) the photo in an
      alt="original image"
      height="350" width="350" />
 
-###### Figure 1- The original 128x128 image.
+###### Figure 1: The original 128x128 image.
 
 Here, the K-means algorithm is used to select the 16 colors that will be used to represent the compressed image. Concretely, every pixel in the original image is treated as a data example and the K-means algorithm is used to find the 16 colors that best group (cluster) the pixels in the 3-dimensional RGB space. Once the cluster centroids on
 the image are computed, the 16 colors are used to replace the pixels in the original image.
@@ -34,8 +34,7 @@ After finding the top K = 16 colors to represent the image, each pixel position 
 
 <img src="results/compressed_16colors.png"
      alt="compressed 16colors image"
-     height="450" width="750" />
-
+     height="450" width="770" />
 
 ###### Figure 2: Original and reconstructed image (when using K-means to compress the image).
 
@@ -77,6 +76,7 @@ Below figure shows the effect of image compression after compressing the image t
 
 ###### Figure 6: Compressed 5 colors data in 3D 
 
+
 <img src="results/2dview_5colors.png"
      alt="compressed 16colors image"
      height="450" width="600" />
@@ -103,6 +103,7 @@ Below figure shows the effect of image compression after compressing the image t
      height="450" width="600" />
 
 ###### Figure 10: 2D visualization produced using PCA
+
 
 Below figure shows the effect of image compression after compressing the image to having only 4 colors in comparison to the original image 253235 colors.
 

@@ -1,4 +1,4 @@
-## Day 40 Project - Facial images dimensionality reduction and restoration using PCA
+## Day 40 Project - Facial images dimensionality reduction and reconstruction using PCA
 
 ### Project Description
 In this project, principal component analysis is used to find a low-dimensional representation of face images.

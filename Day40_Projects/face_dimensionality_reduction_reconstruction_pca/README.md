@@ -1,93 +1,84 @@
-## Day 40 Project - Image Compression using k-means algorithm, clustering, pca
+## Day 40 Project - Facial images dimensionality reduction and restoration using PCA
 
 ### Project Description
-Implement the K-means clustering algorithm and apply it to compress an image. The K-means algorithm is used for image compression by reducing the number of colors that occur in an image to only those that are most common in that image.
+In this project, principal component analysis is used to find a low-dimensional representation of face images.
 
-In the second part, principal component analysis is used to find a low-dimensional representation of face images.
+### Visualizing the Dataset
+The dataset `faces.mat` contains a dataset X of face images, each 32x32 in grayscale. Each row of X corresponds to one face image (a row vector of length 1024).
+First we load and visualize the first 100 of these face images.
 
-### Implementing K-means
-The K-means algorithm is a method to automatically cluster similar data examples together. The intuition behind K-means is an iterative procedure that starts by guess-
-ing the initial centroids, and then refines this guess by repeatedly assigning examples to their closest centroids and then recomputing the centroids based on the assignments.
 
-#### Finding closest centroids
-In the "cluster assignment" phase of the K-means algorithm, the algorithm assigns every training example x<sup>(i)</sup> to its closest centroid, given the current positions of centroids. The `findClosestCentroids.m` function takes the data matrix `X` and the locations of all centroids inside `centroids` and should output a one-dimensional array `idx` that holds the index (a value in {1......K}, where K is total number of centroids) of the closest centroid to every training example.
-
-#### Computing centroid means
-Given assignments of every point to a centroid, the second phase of the algorithm recomputes, for each centroid, the mean of the points that were assigned to it. The script `main_imagecompression.m` will call the function in `computeCentroids.m` and output the centroids after the first step of K-means.
-
-### Image compression with K-means
-In a straightforward 24-bit color representation of an image (Figure 1) each pixel is represented as three 8-bit unsigned integers (ranging from 0 to 255) that specify the red, green and blue intensity values. This encoding is often refered to as the RGB encoding. The image contains thousands of colors, the task is to reduce the number of colors to 16 colors.
-By making this reduction, it is possible to represent (compress) the photo in an efficient way. Specifically, you only need to store the RGB values of the 16 selected colors, and for each pixel in the image you now need to only store the index of the color at that location (where only 4 bits are necessary to represent 16 possibilities).
-
-<img src="results/girl.png"
+<img src="results/dataset_100.png"
      alt="original image"
-     height="350" width="350" />
+     height="450" width="500" />
+###### Figure 1: Faces dataset 100 images
 
-###### Figure 1- The original 128x128 image.
+#### Normalizing the Data
+Before using PCA, it is important to first normalize the data by subtracting the mean value of each feature from the dataset, and scaling each dimension so that they are in the same range. This normalization has been performed using the `featureNormalize` function.
 
-Here, the K-means algorithm is used to select the 16 colors that will be used to represent the compressed image. Concretely, every pixel in the original image is treated as a data example and the K-means algorithm is used to find the 16 colors that best group (cluster) the pixels in the 3-dimensional RGB space. Once the cluster centroids on
-the image are computed, the 16 colors are used to replace the pixels in the original image.
+#### Implementing PCA
 
-#### K-means of Pixels
-The `main_imagecompression.m` script first loads the image, and then reshapes it to create an mx3 matrix of pixel colors (where m = 16384 = 128 x 128), and calls the K-means function on it.
-After finding the top K = 16 colors to represent the image, each pixel position is assigned to its closest centroid using the `findClosestCentroids` function. This represents the original image using the centroid assignments of each pixel.
+After normalizing the data, you PCA is implemented to compute the principal components. PCA consists of two computational steps: First, the covariance matrix of the data is computed.
+Then, compute the eigenvectors. These will correspond to the principal components of variation in the data. In MATLAB, you can run [SVD](https://in.mathworks.com/help/matlab/ref/double.svd.html;jsessionid=64febdc9692bf5fa4f55284eb168) to compute U<sub>1</sub>, U<sub>2</sub>, ... ,U<sub>n</sub> with the following command: [U, S, V] = svd(Sigma), where U will contain the principal components and S will contain a diagonal matrix.
 
-<img src="results/compressed_16colors.png"
-     alt="compressed 16colors image"
+After running PCA, the principal components of the dataset are obtained. Each principal component in U (each row) is a vector of length n (where for the face dataset,n = 1024). 
+These principal components can be visualised by reshaping each of them into a 32x32 matrix that corresponds to the pixels in the original dataset. 
+
+Below, the first 36 principal components that describe the largest variations have been displayed
+
+<img src="results/eigenfaces.png"
+     height="450" width="500" />
+###### Figure 2: Principal components on the face dataset
+
+#### Dimensionality Reduction
+After computing the principal components for the face dataset, it is used to reduce the feature dimension of the face dataset by projecting each example onto a lower dimensional space, x<sup>(i)</sup> -> z<sup>(i)</sup>. This allows the use of the learning algorithm with a smaller input size (e.g., 100 dimensions) instead of the original 1024 dimensions. This can help speed up the learning algorithm.
+
+#### Projecting the data onto the principal components
+The function `projectData` projects each example in X (the dataset) onto the top (the desired number of dimensions to reduce to) K components in U (the principal components).
+Here, t is used to project the face dataset onto only the first 100 principal components. Concretely, each face image is now described by a vector z<sup>(i)</sup> belongs to R<sup>100</sup>.
+
+#### Reconstructing an approximation of the data
+After projecting the data onto the lower dimensional space, the data is approximately recovered by projecting them back onto the original high dimensional space. The function  `recoverData` projects each example in `Z` back onto the original space and return the recovered approximation in `X_rec`.
+
+Below, an approximate recovery of the data is performed and the original and projected face images are displayed side by side. 
+
+
+<img src="results/recovered.png"
      height="450" width="700" />
+     
+###### Figure 3: Original images of faces and ones reconstructed from only the top 100 principal components.
 
- 
-###### Figure 2: Original and reconstructed image (when using K-means to compress the image).
+From the reconstruction, it is observed that the general structure and appearance of the face are kept while the fine details are lost. 
+This is a remarkable reduction (more than 10x) in the dataset size that can help speed up your learning algorithm significantly.
 
-Finally, the effects of the compression can be viewed by reconstructing the image based only on the centroid assignments. Specifically, you can replace each pixel location with the mean of the centroid assigned to it. Figure 2 shows the reconstruction we obtained. Even though the resulting image retains most of the characteristics of the original, we also see some compression artifacts.
+### Varying principal components
+The following figure shows results after displaying more principal components to see how they capture more details and measure their variance.
+For an image resconstructed using 129 principal components, the variance cutoff was found out to be 95%.
 
-### Varying K to see the effects on the compression
 
-Below figure shows the effect of image compression after compressing the image to having only 5 colors.
+<img src="results/reconstruct2.png"
+     height="450" width="700" />
+     
+###### Figure 4: Original image of face and one reconstructed.
 
-![](results/compressed_5colors.png)
-
-###### Figure 3: Reconstructed image for K = 5 .
-
-Below figure shows the effect of image compression after compressing the image to having only 3 colors.
-
-![](results/compressed_3colors.png)
-
-###### Figure 4: Reconstructed image for K = 3 .
-
-Below figure shows the effect of image compression after compressing the image to having only 4 colors in comparison to the original image 253235 colors.
-
-![](results/finalgirl.png)
-
-###### Figure 5: Graphic Representation and Comparsion of Original vs Reconstructed image for K = 4 .
 
 ### Project Structure 
 
- `main_imagecompression.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions for the image compression using K-means
-
-`main_pca.m` - Octave/MATLAB script for the second part on PCA
+ `main_pca.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions for the image compression using PCA
 
 * data1.mat - Example Dataset for PCA
-* data2.mat - Example Dataset for K-means
 * faces.mat - Faces Dataset
-* girl.png - Example Image
 * displayData.m - Displays 2D data stored in a matrix
 * drawLine.m - Draws a line over an exsiting figure
-* plotDataPoints.m - Initialization for K-means centroids
-* plotProgresskMeans.m - Plots each step of K-means as it proceeds
-* runkMeans.m - Runs the K-means algorithm
 * pca.m - Perform principal component analysis
 * projectData.m - Projects a data set into a lower dimensional space
 * recoverData.m - Recovers the original data from the projection
-* findClosestCentroids.m - Find closest centroids (used in K-means)
-* computeCentroids.m - Compute centroid means (used in K-means)
-* kMeansInitCentroids.m - Initialization for K-means centroids
 
 ### How to run?
 You can run project either in `octave` or `MATLAB`. 
 1. Clone repository using `git clone `
 2. `cd` to project directory and either run following command in `octave` or `MATLAB`
-2. `run('main_imagecompression.m')` to run this project
+2. `run('main_pca.m')` to run this project
 
 ### Where to find help?
 * If you do not have Octave installed, please refer to the installation instructions on the [Octave Download](https://www.gnu.org/software/octave/download.html) official site.

@@ -18,7 +18,7 @@ displayData(X(sel, :));
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
-
+%%======================================================
 fprintf('\nLoading Saved Neural Network Parameters ...\n')
 
 load('weights.mat');
@@ -39,7 +39,7 @@ fprintf(['Cost at parameters (loaded from weights): %f '...
 
 fprintf('\nProgram paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 fprintf('\nChecking Cost Function (w/ Regularization) ... \n')
 
 % Weight regularization parameter
@@ -53,7 +53,7 @@ fprintf(['Cost at parameters (loaded from weights): %f '...
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 fprintf('\nEvaluating sigmoid gradient...\n')
 
 g = sigmoidGradient([-1 -0.5 0 0.5 1]);
@@ -63,7 +63,7 @@ fprintf('\n\n');
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 fprintf('\nInitializing Neural Network Parameters ...\n')
 
 initial_Theta1 = randInitializeWeights(input_layer_size, hidden_layer_size);
@@ -79,7 +79,7 @@ checkNNGradients;
 
 fprintf('\nProgram paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 fprintf('\nChecking Backpropagation (w/ Regularization) ... \n')
 
 lambda = 3;
@@ -94,7 +94,7 @@ fprintf(['\n\nCost at (fixed) debugging parameters (w/ lambda = %f): %f ' ...
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 
 fprintf('\nTraining Neural Network... \n')
 
@@ -105,8 +105,7 @@ costFunction = @(p) nnCostFunction(p, ...
                                    hidden_layer_size, ...
                                    num_labels, X, y, lambda);
 
-% Now, costFunction is a function that takes in only one argument (the
-% neural network parameters)
+% costFunction takes in only one argument (the neural network parameters)
 [nn_params, cost] = fmincg(costFunction, initial_nn_params, options);
 
 % Obtain Theta1 and Theta2 back from nn_params
@@ -118,7 +117,7 @@ Theta2 = reshape(nn_params((1 + (hidden_layer_size * (input_layer_size + 1))):en
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 
 fprintf('\nVisualizing Neural Network... \n')
 
@@ -126,7 +125,7 @@ displayData(Theta1(:, 2:end));
 
 fprintf('\nProgram paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 pred = predict(Theta1, Theta2, X);
 
 fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y)) * 100);

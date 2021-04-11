@@ -3,11 +3,16 @@
 ### Project Description
 Build a recommender system for movies using collabrative filtering. The collaborative filtering learning algorithm is applied to a dataset of movie ratings. The objective of collaborative filtering is to predict movie ratings for the movies that users have not yet rated.
 
-The first part of the script `cofi.m` will load the dataset `movies.mat`, providing the variables Y and R in your Octave/MATLAB environment.
-
 ### Movie ratings dataset
 
-The [dataset](https://grouplens.org/datasets/movielens/) `movies.mat` consists of ratings on a scale of 1 to 5.
+The [dataset](https://grouplens.org/datasets/movielens/) `movies.mat` consists of ratings on a scale of 1 to 5. The ratings matrix Y is visualized by plotting it with `imagesc`.
+
+<img src="recommendation_system_movies/results/movie_v2.png"
+     height="450" width="500" />
+     
+###### Figure 1: Visualization of ratings matrix
+
+Y is a 1682 x 943 matrix, containing ratings (1 - 5) of 1682 movies on 943 users.
 
 ### Collaborative filtering learning algorithm
 The collaborative filtering algorithm in the setting of movie recommendations considers a set of n-dimensional parameter vectors x<sup>(1)</sup>,..., x<sup>(n<sub>m</sub>)</sup> and
@@ -16,7 +21,16 @@ The collaborative filtering algorithm in the setting of movie recommendations co
 #### Collaborative filtering cost function
 The function `cofiCostFunc.m` returns the regularized cost in the variable J.
 
-### Visualizing the data and Model Representation
+#### Collaborative filtering gradient
+The function `cofiCostFunc.m` returns the regularized gradient in the variables `X_grad` and `Theta_grad`.
+
+After you have computed the gradients, the a gradient check is run using `checkCostFunction`to numerically check the implementation of the gradients. The function creates a  small collaborative filering problem to check the cost function and gradients. If the implementation is correct, the analytical and numerical gradients match up closely.
+
+
+### Learning movie recommendations
+After implementing the collaborative filtering cost function and gradient, start training your algorithm to make movie recommendations for yourself. The list of all movies and their number in the dataset can be found listed in the file `movie_idx.txt`.
+After the additional ratings have been added to the dataset, the the collaborative filtering model is trained to compute the ratings for all the movies and users and displays the movies that it recommends.
+Visualizing the data and Model Representation
 
 
 

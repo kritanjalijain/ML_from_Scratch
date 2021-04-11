@@ -16,7 +16,7 @@ displayData(sel);
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 % Test case for lrCostFunction
 fprintf('\nTesting lrCostFunction() with regularization');
 
@@ -27,15 +27,13 @@ lambda_t = 3;
 [J grad] = lrCostFunction(theta_t, X_t, y_t, lambda_t);
 
 fprintf('\nCost: %f\n', J);
-fprintf('Expected cost: 2.534819\n');
+
 fprintf('Gradients:\n');
 fprintf(' %f \n', grad);
-fprintf('Expected gradients:\n');
-fprintf(' 0.146561\n -0.548558\n 0.724722\n 1.398003\n');
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 fprintf('\nTraining One-vs-All Logistic Regression...\n')
 
 lambda = 0.1;

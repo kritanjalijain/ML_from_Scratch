@@ -18,7 +18,7 @@ displayData(X(sel, :));
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 fprintf('\nLoading Saved Neural Network Parameters ...\n')
 
 
@@ -30,7 +30,7 @@ fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y)) * 100);
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%======================================================
 %  Randomly test permute examples
 rp = randperm(m);
 

@@ -31,8 +31,6 @@ numgrad = computeNumericalGradient( ...
                           num_movies, num_features, lambda);
 
 disp([numgrad grad]);
-fprintf(['The above two columns you get should be very similar.\n' ...
-         '(Left-Your Numerical Gradient, Right-Analytical Gradient)\n\n']);
 
 diff = norm(numgrad-grad)/norm(numgrad+grad);
 fprintf(['\nRelative Difference: %g\n'], diff);

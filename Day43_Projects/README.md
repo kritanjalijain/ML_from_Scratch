@@ -1,9 +1,20 @@
 # Day 43 - Movie Recommendation System
 
 ### Project Description
-Build a recommender system for movies using collabrative filtering. Thus, by implementing the collaborative filtering learning algorithm, we have applied it to a dataset of movie ratings. This dataset consists of ratings on a scale of 1 to 5.
+Build a recommender system for movies using collabrative filtering. The collaborative filtering learning algorithm is applied to a dataset of movie ratings. The objective of collaborative filtering is to predict movie ratings for the movies that users have not yet rated.
 
 The first part of the script `cofi.m` will load the dataset `movies.mat`, providing the variables Y and R in your Octave/MATLAB environment.
+
+### Movie ratings dataset
+
+The [dataset](https://grouplens.org/datasets/movielens/) `movies.mat` consists of ratings on a scale of 1 to 5.
+
+### Collaborative filtering learning algorithm
+The collaborative filtering algorithm in the setting of movie recommendations considers a set of n-dimensional parameter vectors x<sup>(1)</sup>,..., x<sup>(n<sub>m</sub>)</sup> and
+&theta;<sup>(1)</sup>,..., &theta;<sup>(n<sub>u</sub>)</sup>, where the model predicts the rating for movie i by user j as y<sup>(i,j)</sup> = (&theta;<sup>(j)</sup>)<sup>T</sup> x<sup>(i)</sup>. Given a dataset that consists of a set of ratings produced by some users on some movies, the task is to learn the parameter vectors  x<sup>(1)</sup>,..., x<sup>(n<sub>m</sub>)</sup> and &theta;<sup>(1)</sup>,..., &theta;<sup>(n<sub>u</sub>)</sup> that produce the best fit (minimizes the squared error).
+
+#### Collaborative filtering cost function
+The function `cofiCostFunc.m` returns the regularized cost in the variable J.
 
 ### Visualizing the data and Model Representation
 
@@ -16,7 +27,7 @@ The first part of the script `cofi.m` will load the dataset `movies.mat`, provid
 User-Defined Function files
 
 * `movies.mat` - movie review dataset
-* `movieParams.mat` - Parameters provided for debugging
+* `movieParams.mat` - Parameters for debugging
 * `movie ids.txt` - List of movies
 
 1. `checkCostFunction.m` - Gradient checking for collaborative filtering

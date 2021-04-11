@@ -36,13 +36,13 @@ Visualizing the data and Model Representation
 
 ### Project Structure 
 
-`handwriting_recognition_3.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
+`colabfilter.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
 
 User-Defined Function files
 
 * `movies.mat` - movie review dataset
 * `movieParams.mat` - Parameters for debugging
-* `movie ids.txt` - List of movies
+* `movie_ids.txt` - List of movies
 
 1. `checkCostFunction.m` - Gradient checking for collaborative filtering
 1. `computeNumericalGradient.m` - Numerically compute gradients
@@ -50,15 +50,12 @@ User-Defined Function files
 1. `loadMovieList.m` - Loads the list of movies into a cell-array
 1. `cofiCostFunc.m` - Implement the cost function for collaborative filtering
 1. `normalizeRatings.m` - Mean normalization for collaborative filtering
-1. `multivariateGaussian.m` - Computes the probability density function for a Gaussian distribution
-1. `visualizeFit.m` - 2D plot of a Gaussian distribution and a dataset
-
 
 ### How to run?
 You can run project either in `octave` or `MATLAB`. 
 1. Clone repository using `git clone `
 2. `cd` to project directory and either run following command in `octave` or `MATLAB`
-2. `run('cofi.m')` to run this project
+2. `run('colabfilter.m')` to run this project
 
 ### Where to find help?
 * If you do not have Octave installed, please refer to the installation instructions on the [Octave Download](https://www.gnu.org/software/octave/download.html) official site.

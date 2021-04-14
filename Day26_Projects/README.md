@@ -83,6 +83,52 @@ From Figure 4, it is observed that the polynomial fit is able to follow the data
 
 From Figure 5, it is observed that the learning curve shows the same effect where the low training error is low, but the cross validation error is high. There is a gap between the training and cross validation errors, indicating a high variance problem.
 
+
+One way to combat the overfitting (high-variance) problem is to add regularization to the model.
+
+### Adjusting the regularization parameter &lambda;
+
+For &lambda; = 1, a poylnomial fit is observed that follows the data trend well and a learning curve showing that both the cross validation and training error converge to a relatively low value. This shows the &lambda; = 1 regularized polynomial regression model does not have the high-bias or high-variance problems. In effect, it achieves a good trade-off between bias and variance.
+
+<img src="results/lambda1.png"
+     height="450" width="500" />
+
+##### Figure 6- Polynomial fit, &lambda; = 1
+
+<img src="results/lambda_1.png"
+     height="450" width="500" />
+
+##### Figure 7- Polynomial learning curve, &lambda; = 1
+
+
+For &lambda; = 100, a polynomial fit is observed that does not follow the data well. In this case, there is too much regularization and the model is unable to fit the training data.
+
+<img src="results/lambda100.png"
+     height="450" width="500" />
+
+##### Figure 8- Polynomial fit, &lambda; = 100
+
+<img src="results/lambda_100.png"
+     height="450" width="500" />
+
+##### Figure 9- Polynomial learning curve, &lambda; = 100
+
+### Selecting &lambda; using a cross validation set
+Now, a cross validation set is used to evaluate how good each &lambda; value is. After selecting the best &lambda; value using the cross validation set, the model is evaluated on the test set to estimate how well the model will perform on actual unseen data.
+The `trainLinearReg` function is implemented to train the model using different values of &lambda; and compute the training error and cross validation error.
+The `validationCurve` function will plot a cross validation curve of error v.s. &lambda; 
+
+
+<img src="results/cross_train.png"
+     height="450" width="500" />
+
+##### Figure 10- Selecting &lambda; using a cross validation set
+
+In the above figure, it is seen that the best value of &lambda; is around 3.
+
+### Computing test set error
+Next the final model is evaluated on a test set that was not used in any part of training (that is, it was neither used to select the &lambda; parameters, nor to learn the model parameters &theta;).
+
 ### Project Structure
  `bias_variance.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
   

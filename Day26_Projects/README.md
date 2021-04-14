@@ -14,21 +14,25 @@ This dataset is divided into three parts:
 * A cross validation set for determining the regularization parameter: Xval, yval
 * A test set for evaluating performance. These are \unseen" examples which your model did not see during training: Xtest, ytest
 
-![](https://github.com/kritanjalijain/100_Days_0f_ML/blob/master/Day26_Projects/results/V1(1).png)
+
+<img src="results/V1(1).png"
+     height="450" width="500" />
 
 ##### Figure 1- Plot of Training Data
 
 ### Regularized linear regression cost function
-Next, I calculated the regularized linear regression cost function using `theta` initialized at [1; 1] in `linearRegCostFunction.m.`.
+Next, the regularized linear regression cost function was calculated using `theta` initialized at [1; 1] in `linearRegCostFunction.m.`.
 
 ### Regularized linear regression gradient
-Next, I calculated the gradient, returning it in the variable `grad`initialized at [1; 1] in `linearRegCostFunction.m.`.
+Next, the gradient was calculated, returning it in the variable `grad`initialized at [1; 1] in `linearRegCostFunction.m.`.
 
 ### Fitting linear regression
 Function in `trainLinearReg.m` is used to compute the optimal values of &theta;. This training function uses `fmincg` to optimize the cost function. 
 The  `bias_variance.m` script uses `plotFit.m` to plot the best fit line
 
-![](https://github.com/kritanjalijain/100_Days_0f_ML/blob/master/Day26_Projects/results/V2.png)
+
+<img src="results/V2.png"
+     height="450" width="500" />
 
 ##### Figure 2- Linear Fit
 
@@ -42,19 +46,42 @@ A learning curve plots training and cross validation error as a function of trai
 error for different training set sizes.
 The `trainLinearReg` function finds the &theta; parameters. After learning the &theta; parameters, compute the error on the training and cross validation sets in `learningCurve.m` which will return a vector of errors for the training set and cross validation set. Print the learning curves and produce a plot.
 
-![](https://github.com/kritanjalijain/100_Days_0f_ML/blob/master/Day26_Projects/results/V3.png)
+
+
+<img src="results/V3.png"
+     height="450" width="500" />
 
 ##### Figure 3- Linear regression learning curve
 
 It is observed that both the train error and cross validation error are high when the number of training examples is increased. This reflects a high bias problem in the model - the linear regression model is too simple and is unable to fit our dataset well.
 
 ## Polynomial regression
-The problem with the linear model was that it was too simple for the data and resulted in underfitting (high bias). Thus, I tried to address this problem by adding more features.
-The `polyFeatures.m` function maps the original training set X of size m x 1 into its higher powers. Next, `bias_variance.m` will apply it to the training set, the test set, and the
+The problem with the linear model was that it was too simple for the data and resulted in underfitting (high bias). Thus, this problem was tried to be fixed by adding more features.
+The `polyFeatures` function maps the original training set X of size m x 1 into its higher powers. After that, they are applied to the training set, the test set, and the
 cross validation set.
 
 ### Learning Polynomial Regression
+After the `polyFeatures` function map features to a higher dimension, we proceed to train polynomial regression using linear regression cost function since even though we have polynomial terms in our feature vector, we are still solving a linear regression optimization problem. The polynomial terms have simply turned into features that we can use for linear regression. 
 
+Before learning the parameters &theta; for the polynomial regression,  `featureNormalize` will normalize the features of the training set, storing the `mu`, `sigma` parameters separately.
+
+After that two plots are generated for polynomial regression with &lambda; = 0.
+  
+
+<img src="results/overfit.png"
+     height="450" width="500" />
+
+##### Figure 4- Polynomial fit, &lambda; = 0
+
+From Figure 4, it is observed that the polynomial fit is able to follow the datapoints very well - thus, obtaining a low training error. However, the polynomial fit is very complex and even drops off at the extremes. This is an indicator that the polynomial regression model is overfitting the training data and will not generalize well. 
+
+
+<img src="results/highvariance.png"
+     height="450" width="500" />
+
+##### Figure 5- Polynomial learning curve, &lambda; = 0
+
+From Figure 5, it is observed that the learning curve shows the same effect where the low training error is low, but the cross validation error is high. There is a gap between the training and cross validation errors, indicating a high variance problem.
 
 ### Project Structure
  `bias_variance.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.

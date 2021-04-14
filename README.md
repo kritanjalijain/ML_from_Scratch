@@ -1,5 +1,5 @@
 # ML
-This repo contains projects made for understanding algorithms and training models in their entirety **without using machine learning libraries like tensorflow**
+This repo contains personal/pet projects made for understanding algorithms from scratch and training models in their entirety **without using machine learning libraries like tensorflow**
 
 ### See the journey
 Checkout [log.md](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Log.md) to see day-wise logs of progress.

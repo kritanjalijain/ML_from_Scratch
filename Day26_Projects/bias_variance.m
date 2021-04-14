@@ -1,5 +1,5 @@
 clear ; close all; clc
-
+%%--------------------------------
 fprintf('Loading and Visualizing Data ...\n')
 
 load ('data1.mat');
@@ -14,7 +14,7 @@ ylabel('Water flowing out of the dam (y)');
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%--------------------------------
 theta = [1 ; 1];
 J = linearRegCostFunction([ones(m, 1) X], y, theta, 1);
 
@@ -23,7 +23,7 @@ fprintf(['Cost at theta = [1 ; 1]: %f '...
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%--------------------------------
 theta = [1 ; 1];
 [J, grad] = linearRegCostFunction([ones(m, 1) X], y, theta, 1);
 
@@ -33,7 +33,7 @@ fprintf(['Gradient at theta = [1 ; 1]:  [%f; %f] '...
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%--------------------------------
 lambda = 0;
 [theta] = trainLinearReg([ones(m, 1) X], y, lambda);
 
@@ -46,7 +46,7 @@ hold off;
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%--------------------------------
 lambda = 0;
 [error_train, error_val] = ...
     learningCurve([ones(m, 1) X], y, ...
@@ -67,7 +67,7 @@ end
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%--------------------------------
 p = 8;
 
 % Map X onto Polynomial Features and Normalize
@@ -93,7 +93,7 @@ fprintf('  %f  \n', X_poly(1, :));
 fprintf('\nProgram paused. Press enter to continue.\n');
 pause;
 
-
+%%--------------------------------
 lambda = 0;
 [theta] = trainLinearReg(X_poly, y, lambda);
 
@@ -124,7 +124,7 @@ end
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%%--------------------------------
 
 [lambda_vec, error_train, error_val] = ...
     validationCurve(X_poly, y, X_poly_val, yval);

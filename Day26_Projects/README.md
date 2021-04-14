@@ -1,7 +1,7 @@
 # Day 26- Bias and Variance
 
 ### Project Description
-To implement regularized linear regression and use it to study models with different bias-variance properties.
+To study models with different bias-variance properties using learning curves and k-folds cross validation
 
 
 ## Regularized Linear Regression
@@ -127,13 +127,60 @@ The `validationCurve` function will plot a cross validation curve of error v.s. 
 In the above figure, it is seen that the best value of &lambda; is around 3.
 
 ### Computing test set error
-Next the final model is evaluated on a test set that was not used in any part of training (that is, it was neither used to select the &lambda; parameters, nor to learn the model parameters &theta;).
+Next the final model is evaluated using the best value of &lambda; i.e. 3 on a test set that was not used in any part of training (that is, it was neither used to select the &lambda; parameters, nor to learn the model parameters &theta;).
+
+### Linear Regression Model vs Polynomial Regression Model
+
+<img src="results/v.png"
+     height="450" width="500" />
+
+##### Figure 11- Linear Regression Model vs Polynomial Regression Model on training data
+
+### Alternate Method- Partition the dataset
+The below steps have been carried out on a partition of the dataset
+
+### Using K-fold cross validation 
+Instead of using learning curves to detect high bias or variance issues, followed by validation curves to determine the optimal regularization parameter value, the `kfoldLoss` function is used to compute the cost of all models in the partitioned model variable using the validation set. Then the individual model with
+the lowest cost is extracted using the `selectModels` function. The result will be a RegressionLinear model variable corresponding to the best model as found by cross-validation.
+
+### Visualising Model Responses
+Next, the training data, validation data, and the models are plotted for each &lambda;
+
+
+<img src="results/k-fold.png"
+     height="450" width="500" />
+
+##### Figure 12 - Best value of lamdba using a fixed set of parameters
+
+### Hyperparameter Optimization
+Hyperparameter optimization  is used with `fitrlinear` to automatically obtain the best cross-validation strength and the corresponding model.
+ * Step 1- Specify the cross-validation method 
+ * Step 2- Automatically select &lambda using hyperparameter optimization
+
+
+
+<img src="results/min_obj.png"
+     height="450" width="500" />
+
+##### Figure 13 - Progress plot 1: Minimum Objective vs No of evaluations
+
+<img src="results/obj_func.png"
+     height="450" width="500" />
+
+##### Figure 14 - Progress plot 2: Objective Function Model
+
+The best model found above using a fixed set of parameters and manual model selection plotted alongside the optimized model computed below for comparison.
+
+<img src="results/hyperparameter.png"
+     height="450" width="500" />
+
+##### Figure 15 - Fixed Parameter Manual Model vs Hyperparameterized Optimized Model
 
 ### Project Structure
  `bias_variance.m` - Octave/MATLAB script to set up the dataset for the problem and make calls to user-defined functions.
   
 #### User-Defined Function files
-1. `data1.mat` - Dataset
+1. `data.mat` - Dataset
 1. `featureNormalize.m` - Feature normalization function
 1. `fmincg.m` - Function minimization routine 
 2. `plotFit.m` - Plot a polynomial fit

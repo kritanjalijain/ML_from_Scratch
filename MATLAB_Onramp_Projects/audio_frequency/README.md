@@ -10,8 +10,9 @@ However, when a signal contains two frequencies that are close together, they ca
 
 This project introduces graph visualization functions `plot` and other audio signal processing functions like `fft` with examples.
 
-Signal's Frequency Graph
 ![](results/frequency.png)
+
+###### Figure 1- Signal's Frequency Graph
 
 #### Project structure
 * `audio_frequency.m` file plots signal frequency data on graph

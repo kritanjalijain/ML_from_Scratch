@@ -4,7 +4,7 @@
 
 #### Project 1:
 
-Implemented the K-means clustering algorithm and applied it [for image compression](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day40_Projects/image_compression_kmeans)
+Implemented the K-means clustering algorithm and applied it [for image compression](https://github.com/kritanjalijain/ML_from_Scratch/tree/master/K-Means_Clustering_PCA/image_compression_kmeans)
 . The K-means algorithm is used for image compression by reducing the number of colors that occur in an image to only those that are most common in that image. Lastly, implementation of PCA is done to the 3-dimensional data to reduce it to 2 dimensions and visualize the result in a 2D scatter plot. 
 
 #### Project 2:

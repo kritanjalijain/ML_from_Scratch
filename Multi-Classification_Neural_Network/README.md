@@ -10,7 +10,7 @@ The `weights.mat` contains the parameters of the neural network.
 Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, load and display the data on a 2-dimensional plot by calling the function `displayData`.
 
 
-![](https://github.com/kritanjalijain/100_Days_0f_ML/blob/master/Day21_Projects/handwritten_digit_recognition_backpropagation/results/V1.png)
+![](Handwriting_Recognition_Neural_Network/results/V1.png)
 ###### Figure 1- Display 100 examples from the dataset
 
 
@@ -18,12 +18,12 @@ Before starting on any task, it is often useful to understand the data by visual
 The neural network has 3 layers (an input layer, a hidden layer and an output layer). Since the images are of size 20 x 20, this gives us 400 input layer units. 
 The parameters (Theta1 and Theta2) have dimensions that are sized for a neural network with 25 units in the second layer and 10 output units (corresponding to the 10 digit classes).
 
-![](https://github.com/kritanjalijain/100_Days_0f_ML/blob/master/Day21_Projects/handwritten_digit_recognition_backpropagation/results/feedfor.png)
+![](https://github.com/kritanjalijain/ML_from_Scratch/blob/master/Backpropagation_Neural_Network/handwritten_digit_recognition_backpropagation/results/feedfor.png)
 ###### Figure 2- Neural Network Model
 
 
 ### Feedforward Propagation and Prediction
-Implement the feedforward computation that computes h<sub> &theta; </sub>(x <sup>(i) </sup>) for every example i and returns the associated predictions. Similar to the [one-vs-all classification strategy](https://github.com/kritanjalijain/100_Days_0f_ML/blob/master/Day16_Projects), the prediction from the neural network will be the label that has the largest output (h<sub> &theta; </sub>(x <sup>(i) </sup>))<sub> k </sub>
+Implement the feedforward computation that computes h<sub> &theta; </sub>(x <sup>(i) </sup>) for every example i and returns the associated predictions. Similar to the [one-vs-all classification strategy](https://github.com/kritanjalijain/ML_from_Scratch/tree/master/Multi-Classification_Logistic_Regression), the prediction from the neural network will be the label that has the largest output (h<sub> &theta; </sub>(x <sup>(i) </sup>))<sub> k </sub>
 
 ### Results
 The training accuracy is about 97.5%.

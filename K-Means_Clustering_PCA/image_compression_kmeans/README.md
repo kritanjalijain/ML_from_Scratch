@@ -3,8 +3,6 @@
 ### Project Description
 Implement the K-means clustering algorithm and apply it to compress an image. The K-means algorithm is used for image compression by reducing the number of colors that occur in an image to only those that are most common in that image.
 
-In the second part, principal component analysis is used to find a low-dimensional representation of face images.
-
 ### Implementing K-means
 The K-means algorithm is a method to automatically cluster similar data examples together. The intuition behind K-means is an iterative procedure that starts by guess-
 ing the initial centroids, and then refines this guess by repeatedly assigning examples to their closest centroids and then recomputing the centroids based on the assignments.

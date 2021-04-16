@@ -26,7 +26,7 @@ After training the one-vs-all classifier, use it to predict the digit contained 
 ### Results
 The training set accuracy is about 94.9% (i.e., it classifies 94.9% of the examples in the training set correctly).
 
-However, logistic regression cannot form more complex hypotheses as it is only a linear classifier. One could add more features (such as polynomial features) to logistic regression, but that can be very expensive to train. Thus, I have implemented a [neural network to recognize handwritten digits](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day17_Projects) using the same training set as before. The neural network will be able to represent complex models that form non-linear hypotheses.
+However, logistic regression cannot form more complex hypotheses as it is only a linear classifier. One could add more features (such as polynomial features) to logistic regression, but that can be very expensive to train. Thus, I have implemented a [neural network to recognize handwritten digits](https://github.com/kritanjalijain/ML_from_Scratch/tree/master/Multi-Classification_Neural_Network) using the same training set as before. The neural network will be able to represent complex models that form non-linear hypotheses.
 
 ### Project Structure 
 

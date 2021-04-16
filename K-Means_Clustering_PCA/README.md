@@ -9,7 +9,7 @@ Implemented the K-means clustering algorithm and applied it [for image compressi
 
 #### Project 2:
 
-Principal component analysis is used [to find a low-dimensional representation of face images.](https://github.com/kritanjalijain/100_Days_0f_ML/tree/master/Day40_Projects/face_dimensionality_reduction_reconstruction_pca)
+Principal component analysis is used [to find a low-dimensional representation of face images.](https://github.com/kritanjalijain/ML_from_Scratch/tree/master/K-Means_Clustering_PCA/face_dimensionality_reduction_reconstruction_pca)
 
 ### How to run?
 You can run project either in `octave` or `MATLAB`. 

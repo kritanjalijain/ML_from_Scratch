@@ -1,5 +1,5 @@
 # ML
-This repo contains personal/pet projects made for understanding algorithms from scratch and training models in their entirety **without using machine learning libraries like tensorflow**
+This repo contains personal/pet projects made for understanding algorithms from scratch and training models in their entirety **without using machine learning libraries for sequential layers or feature classification**
 
 
 ### Projects
